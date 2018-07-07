@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'nexa-bold';
+    src: url('../fonts/Nexa/Nexa_Bold.otf');
+}
+
+@font-face {
+    font-family: 'nexa-light';
+    src: url('../fonts/Nexa/Nexa_Light.otf');
+}
+
+@font-face {
+    font-family: 'chivo-light';
+    src: url('../fonts/Chivo/Chivo-Light.ttf');
+}

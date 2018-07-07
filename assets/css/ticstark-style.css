@@ -1,0 +1,375 @@
+/* MICRO-FRAMEWORK DISEÑO ATÓMICO
+BY LUIS PATIÑO BUENDÍA */
+
+/*  CONSEJOS:
+1) FLOAT LEFT FUNCIONA PERO NO RESPETA LA PROPIEDAD HEIGHT.
+2) FLOAT SE DEFINE PARA FLOTAR IMÁGENES Y NO PARA MAQUETAR .
+3) overflow: hidden; permite desaparecer el resto de imagen desbordada.
+4) BOX-SIZING:border-box; encaja los elementos sin desbordar la caja padre.
+5) PC-TV:
+    a. Posición: 
+        {position, top, left, right, bottom, clear, z-index}
+    b. Caja (modelo caja):
+        {display, float, margin, padding, width, height}
+    c. Tipografía:
+        {font-family, font-size, line-height, color, text-align}
+    d Visual (Apartado visual):
+        {background-color, border, border-radius, outline, opacity}
+
+
+    SELECTOR: 
+    1.(prefijo_letra)-(descripcion_corta)-(sub_tipo)
+    2.(descripcion_corta)-(sub_tipo)
+    3.(descripcion_corta)
+   
+6) AL PARECER, LAS IMAGENES RESPONSIVAS SE DAN, SEGÚN EL TAMAÑO DEL PADRE.
+O SEA, QUE SE DEBE ASIGNAR UN VALOR PORCENTUAL FIJO,
+A LOS CONTENEDORES PADRES, PARA QUE SEAN RESPONSIVAS.
+SI LOS CONTENEDORES SON FLEXIBLES, NO APLICARÁN LOS 
+EFECTOS A LAS IMAGENES.
+    */
+
+h1 {
+    margin: 1rem auto;
+}
+
+.fixed-position {
+    position: fixed;
+}
+
+.img-width-full {
+    width: 100%;
+}
+
+.margin-5 {
+    margin: 5%;
+}
+
+.border {
+    border: thin solid black;
+}
+/* REGLAS VISUALES PARA CONTAINERS */
+
+.container_a {
+    padding-top: 16rem;
+    padding-bottom: 16rem;
+}
+
+.container_b {
+    padding-top: 14rem;
+    padding-bottom: 14rem;
+}
+
+.container_c {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+}
+
+.container_d {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.container_e {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.container_f {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.container_g {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.container_h {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.item-container {
+    padding: 2rem;
+    display: block;
+}
+
+.text-container {
+    padding: 2rem;
+}
+
+/* REGLAS PARA LISTAS */
+
+ol.lista-decimal-zero>li {
+    list-style-type: decimal-leading-zero;
+    list-style-position: inside;
+}
+
+ol.lista-minuscula-alpha>li {
+    list-style-type: lower-alpha;
+    list-style-position: inside;
+}
+
+ol.lista-mayuscula-alpha>li {
+    list-style-type: upper-alpha;
+    list-style-position: inside;
+}
+
+ul.lista-square>li {
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+ul.lista-circle>li {
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+.lista-none>li {
+    list-style-type: none;
+}
+
+/* REGLAS PARA HEADER */
+
+header.header-fix {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+header.header-color-back {
+    background-color: #EE1C44;
+}
+
+header.header-img-back {
+    background-image: url('assets/img/compreso/TICSTARK2.1.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/* LOGO HEADER */
+
+.logo-h {
+    margin: 10px 15px;
+}
+
+/* NAVIGATION HEADER */
+
+nav.header-nav {
+    margin: auto 10%;
+    font-family: 'nexa-light';
+}
+
+nav.header-nav li>a {
+    padding: 1rem;
+    font-size: 1.55vmax;
+    color: #f3f3f3;
+    display: inline-block;
+}
+
+nav.header-nav li>a:visited {
+    text-decoration: none;
+    color: #f3f3f3;
+}
+
+nav.header-nav li>a:hover {
+    background-color: rgba(42, 39, 39, 0.3);
+    -webkit-transition: background-color .3s;
+    transition: background-color .3s;
+    color: rgba(255, 255, 255, .5);
+    -webkit-transition: color .4s;
+    transition: color .4s;
+}
+
+/* TIPOGRAFÍA */
+
+.f-nexa-l {
+    font-family: 'nexa-light';
+}
+
+.f-nexa-b {
+    font-family: 'nexa-bold';
+}
+
+.f-chivo-l {
+    font-family: 'chivo-light';
+}
+
+/* ALINEACION DE TEXTO */
+
+.t-all-center>* {
+    text-align: center;
+}
+
+.t-all-left>* {
+    text-align: left;
+}
+
+.t-all-right>* {
+    text-align: right;
+}
+
+.t-center {
+    text-align: center;
+}
+
+.t-left {
+    text-align: left;
+}
+
+.t-right {
+    text-align: right;
+}
+
+.titulo_a {
+    font-size: 9rem;
+    letter-spacing: 1rem;
+    font-weight: 900;
+}
+
+.titulo_b {
+    font-size: 7rem;
+    letter-spacing: .5rem;
+    font-weight: 600;
+}
+
+.titulo_c {
+    font-size: 6rem;
+    letter-spacing: 0rem;
+    font-weight: 300;
+}
+
+.subtitulo_a {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    font-weight: 300;
+}
+
+.subtitulo_b {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    font-weight: 300;
+}
+
+.subtitulo_c {
+    font-size: 1.3rem;
+    line-height: 2rem;
+    font-weight: 300;
+}
+
+.eslogan_a {
+    font-size: 1.4rem;
+    letter-spacing: 1rem;
+}
+
+.eslogan_b {}
+
+.eslogan_c {}
+
+.color-ticstark-1 {
+    color: #f3f3f3;
+}
+
+.color-ticstark-2 {
+    color: #b8b8b8;
+}
+
+.color-ticstark-3 {
+    color: #313746;
+}
+
+.color-ticstark-4 {
+    color: #12141c;
+}
+
+.color-ticstark-5 {
+    color: #EE1C44;
+}
+
+.all-color-ticstark-1>* {
+    color: #f3f3f3;
+}
+
+.all-color-ticstark-2>* {
+    color: #b8b8b8;
+}
+
+.all-color-ticstark-3>* {
+    color: #313746;
+}
+
+.all-color-ticstark-4>* {
+    color: #12141c;
+}
+
+.all-color-ticstark-5>* {
+    color: #EE1C44;
+}
+
+/* FONDOS */
+
+.background-color-ts-1 {
+    background-color: #f3f3f3;
+}
+
+.background-color-ts-2 {
+    background-color: #b8b8b8;
+}
+
+.background-color-ts-3 {
+    background-color: #313746;
+}
+
+.background-color-ts-3-1 {
+    background-color: #363146;
+}
+
+.background-color-ts-3-2 {
+    background-color: #463631;
+}
+
+.background-color-ts-4 {
+    background-color: #12141c;
+}
+
+.background-color-ts-5 {
+    background-color: #EE1C44;
+}
+
+.background-color-ts-5-1 {
+    background-color: #463631;
+}
+
+.background-white {
+    background-color: white;
+}
+
+.background-img-ticstark {
+    background-image: url('assets/img/compreso/TICSTARK2.1.jpg');
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+    background-size: 100%;
+}
+
+/* BOTONERA */
+
+a.button {
+    padding: 1rem 1.5rem;
+    font-size: .8rem;
+    font-weight: 900;
+    letter-spacing: .5rem;
+    text-decoration: none;
+    color: #f3f3f3;
+    background-color: rgb(226, 28, 64);
+    border-radius: 2rem;
+    -webkit-box-shadow: .5rem .1rem .1rem rgb(109, 14, 31);
+    box-shadow: 0.1rem 0.1rem 0.1rem rgb(109, 14, 31);
+}
+
+a.button:hover {
+    background-color: rgb(156, 11, 38);
+    -webkit-transition: background-color .3s;
+    transition: background-color .3s;
+}

@@ -1,0 +1,82 @@
+.container,
+.container-fluido {
+    display: block;
+    width: 100%;
+    /* margin: 1rem auto; */
+    /* background-color: #CCC; */
+}
+
+.container {
+    /* max-width: 1200px; */
+    width: 100%;
+}
+
+.container_sketch {
+    display: block;
+    width: auto;
+    margin: 1rem auto;
+    max-width: 1200px;
+}
+
+/* 
+Retícula de 12 columnas y el 100% de la pantalla.
+Ecuación: 
+    - N-columnas * (100%/12-col) = % de N columnas
+
+A la hora de maquetar, la ecuación para elegir Col-n es:
+    - 12 Columnas / x Número de item-container = Col-N
+
+Todos los N-item-container deben tener la clase de Col-N resultante.
+La suma de N-item-container debe ser igual a 12, para mantener las proporciones.
+*/
+
+/* AL USAR EL SISTEMA DE GRILLAS, SE PROPORCIONA EL ESPACIO, LA CUAL
+CANCELA EL USO DE ALINEACIONES FLEXBOX */
+
+.col-12 {
+    width: 100%;
+}
+
+.col-11 {
+    width: 91.666666667%;
+}
+
+.col-10 {
+    width: 83.333333333%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-8 {
+    width: 66.666666667;
+}
+
+.col-7 {
+    width: 58.333333333%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-5 {
+    width: 41.666666667;
+}
+
+.col-4 {
+    width: 33.333333333%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-2 {
+    width: 16.666666667%;
+}
+
+.col-1 {
+    width: 8.333333333%;
+}

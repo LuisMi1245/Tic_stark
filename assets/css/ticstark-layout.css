@@ -1,0 +1,376 @@
+/* TECNICAS DE MAQUETACION  */
+
+/* 
+b. CAJA (MODELO-CAJA):
+{display, float, margin, padding, width, height}
+  
+ SELECTOR: 
+ 1.(prefijo_letra)-(descripcion_corta)-(sub_tipo)
+ 2.(descripcion_corta)-(sub_tipo)
+ 3.(descripcion_corta) */
+
+/*  TÉCNICA DE MAQUETACIÓN #1 (FLOAT)
+ SALVO QUE EL NAVEGADOR SEA MUY ANTIGUO, USAR FLOAT 
+Requiere una clase padre clear*/
+
+.float-l {
+    float: left;
+}
+
+.float-r {
+    float: right;
+}
+
+.float-n {
+    float: none;
+}
+
+.clear,
+.clear::after,
+.clear::before {
+    clear: both;
+}
+
+.clear::after,
+.clear::before {
+    content: " ";
+    display: block;
+}
+
+/* TÉCNICA DE MAQUETACIÓN #2 (DISPLAY:INLINE-BLOCK)
+Requiere una clase padre font-0 + alineación vertical*/
+
+.font-0 {
+    font-size: 0rem;
+}
+
+.d-line-b {
+    display: inline-block;
+}
+
+.d-line {
+    display: inline;
+}
+
+.d-block {
+    display: block;
+}
+
+.d-none {
+    display: none;
+}
+
+/* ALINEA ITEM-CONTAINER QUE SE ENCUENTRAN SEGUIDOS DE UNO MÁS ALTO.*/
+
+.v-align-baseline {
+    vertical-align: baseline;
+}
+
+.v-align-bottom {
+    vertical-align: bottom;
+}
+
+.v-align-middle {
+    vertical-align: middle;
+}
+
+.v-align-top {
+    vertical-align: top;
+}
+
+/* TÉCNICA DE MAQUETACIÓN #3 (DISPLAY:TABLE)*/
+
+.d-table {
+    display: table;
+}
+
+.d-table-line {
+    display: inline-table;
+}
+
+.d-table-cell {
+    display: table-cell;
+}
+
+/* TÉCNICA DE MAQUETACIÓN #4 (DISPLAY:FLEX)
+Requiere un padre d-flex e hijos d-flex-item(opcional) y padres con flexflow(opcional) */
+
+.d-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.d-flex-line {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+}
+
+.d-flex-item {
+    -webkit-box-flex: 0;
+    -ms-flex: none;
+    flex: none;
+}
+
+/* UNA LINEA (NOWRAP) VARIAS LINEAS (WRAP O W-REVERSE), 
+es decir, si se desborda del contenedor padre,este pasa a otra linea nueva si es wrap,
+si es nowrap, se desborda, pero solo si flex-direction es column. */
+
+/* SHORTHAND (flexflow-{direccion:columna,fila,reversa}-{polilinea-onelinea}) */
+
+/* usada */
+
+.flexflow-r-ol {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+}
+
+/* usada */
+
+.flexflow-r-pl {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+
+.flexflow-r-plr {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap-reverse;
+    flex-flow: row wrap-reverse;
+}
+
+.flexflow-rr-ol {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-flow: row-reverse nowrap;
+    flex-flow: row-reverse nowrap;
+}
+
+.flexflow-rr-pl {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-flow: row-reverse wrap;
+    flex-flow: row-reverse wrap;
+}
+
+.flexflow-rr-plr {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-flow: row-reverse wrap-reverse;
+    flex-flow: row-reverse wrap-reverse;
+}
+
+/* usada */
+
+.flexflow-c-ol {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column nowrap;
+    flex-flow: column nowrap
+}
+
+/* usada */
+
+.flexflow-c-pl {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column wrap;
+    flex-flow: column wrap
+}
+
+.flexflow-c-plr {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column wrap-reverse;
+    flex-flow: column wrap-reverse;
+}
+
+.flexflow-cr-ol {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-flow: column-reverse nowrap;
+    flex-flow: column-reverse nowrap;
+}
+
+.flexflow-cr-pl {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-flow: column-reverse wrap;
+    flex-flow: column-reverse wrap;
+}
+
+.flexflow-cr-plr {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-flow: column-reverse wrap-reverse;
+    flex-flow: column-reverse wrap-reverse;
+}
+
+/* COMO SE ACOMODAN LOS ELEMENTOS (NO LAS CAJAS) DEL EJE PRINCIPAL (HORIZONTAL, SEGUN LA ESCRITURA OCCIDENTAL) */
+
+/* SIMILAR A FLOAT */
+
+/* FUNCIONAN SI NO SE USA EL SISTEMA DE GRIDS (COL-N) */
+
+.fitems-start {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+.fitems-end {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+/* MUY RECOMENDABLE USAR */
+
+.fitems-center {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.fitems-spacearound {
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.fitems-spacebetween {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+/* PARA EL EJE TRANSVERSAL, 
+USAMOS ALIGN ITEMS (SI ES NOWRAP) O ALIGN CONTENT (SI ES WRAP/REVERSE) */
+
+/* MUY RECOMENDABLE USAR */
+
+.nowrap-align-start {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.nowrap-align-end {
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+}
+
+.nowrap-align-center {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.nowrap-align-stretch {
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+}
+
+.nowrap-align-baseline {
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline
+}
+
+.wrap-align-start {
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+}
+
+.wrap-align-end {
+    -ms-flex-line-pack: end;
+    align-content: flex-end;
+}
+
+.wrap-align-center {
+    -ms-flex-line-pack: center;
+    align-content: center;
+}
+
+.wrap-align-stretch {
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+}
+
+.wrap-align-spacebetween {
+    -ms-flex-line-pack: justify;
+    align-content: space-between;
+}
+
+.wrap-align-spacearound {
+    -ms-flex-line-pack: distribute;
+    align-content: space-around;
+}
+
+/* TAMAÑO BASE DE ELEMENTOS HIJOS CON FLEX */
+
+.flex-item-20 {
+    -ms-flex-preferred-size: 20%;
+    flex-basis: 20%;
+}
+
+.flex-item-25 {
+    -ms-flex-preferred-size: 25%;
+    flex-basis: 25%;
+}
+
+.flex-item-30 {
+    -ms-flex-preferred-size: 30%;
+    flex-basis: 30%;
+}
+
+.flex-item-35 {
+    -ms-flex-preferred-size: 35%;
+    flex-basis: 35%;
+}
+
+.flex-item-40 {
+    -ms-flex-preferred-size: 40%;
+    flex-basis: 40%;
+}
+
+.flex-item-45 {
+    -ms-flex-preferred-size: 45%;
+    flex-basis: 45%;
+}
+
+.flex-item-55 {
+    -ms-flex-preferred-size: 55%;
+    flex-basis: 55%;
+}
+
+.flex-item-60 {
+    -ms-flex-preferred-size: 60%;
+    flex-basis: 60%;
+}
+
+.flex-item-65 {
+    -ms-flex-preferred-size: 65%;
+    flex-basis: 65%;
+}
+
+.flex-item-70 {
+    -ms-flex-preferred-size: 70%;
+    flex-basis: 70%;
+}
+
+.flex-item-75 {
+    -ms-flex-preferred-size: 75%;
+    flex-basis: 75%;
+}
+
+.flex-item-80 {
+    -ms-flex-preferred-size: 80%;
+    flex-basis: 80%;
+}

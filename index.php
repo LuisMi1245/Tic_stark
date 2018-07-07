@@ -2,7 +2,7 @@
 Template Theme URI:http://ticstark.com
 Author: Ticstark
 -->
-
+A
 <!-- 
 ORDEN EN LA DEFINICIÓN DE ATRIBUTOS:
     - .class (si se tiene más de una clase separar con 2 espacios).

@@ -12,3 +12,28 @@
     font-family: 'chivo-light';
     src: url('../fonts/Chivo/Chivo-Light.ttf');
 }
+
+@font-face {
+    font-family: 'segoe-regular';
+    src: url('../fonts/SegoeRegular/SEGOEUI.TTF');
+}
+
+@font-face {
+    font-family: 'segoe-regular-new';
+    src: url('../fonts/SegoeRegular2/segoeui.ttf');
+}
+
+@font-face {
+    font-family: 'segoe-bold';
+    src: url('../fonts/SegoeBold/SEGOEUIB.TTF');
+}
+
+@font-face {
+    font-family: 'segoe-semibold';
+    src: url('../fonts/SegoeSemiBold/seguisb.ttf');
+}
+
+@font-face {
+    font-family: 'segoe-semilight';
+    src: url('../fonts/SegoeSemilight/segoeuisl.ttf');
+}

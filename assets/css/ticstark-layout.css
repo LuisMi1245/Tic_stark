@@ -93,24 +93,12 @@ Requiere una clase padre font-0 + alineación vertical*/
 }
 
 /* TÉCNICA DE MAQUETACIÓN #4 (DISPLAY:FLEX)
-Requiere un padre d-flex e hijos d-flex-item(opcional) y padres con flexflow(opcional) */
-
-.d-flex {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-}
+Requiere un padre container-flex e hijos d-flex-item(opcional) y padres con flexflow(opcional) */
 
 .d-flex-line {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
-}
-
-.d-flex-item {
-    -webkit-box-flex: 0;
-    -ms-flex: none;
-    flex: none;
 }
 
 /* UNA LINEA (NOWRAP) VARIAS LINEAS (WRAP O W-REVERSE), 
@@ -313,64 +301,8 @@ USAMOS ALIGN ITEMS (SI ES NOWRAP) O ALIGN CONTENT (SI ES WRAP/REVERSE) */
     align-content: space-around;
 }
 
-/* TAMAÑO BASE DE ELEMENTOS HIJOS CON FLEX */
+/* CRECIMIENTO DE LOS CONTAINERS FLEX */
 
-.flex-item-20 {
-    -ms-flex-preferred-size: 20%;
-    flex-basis: 20%;
-}
-
-.flex-item-25 {
-    -ms-flex-preferred-size: 25%;
-    flex-basis: 25%;
-}
-
-.flex-item-30 {
-    -ms-flex-preferred-size: 30%;
-    flex-basis: 30%;
-}
-
-.flex-item-35 {
-    -ms-flex-preferred-size: 35%;
-    flex-basis: 35%;
-}
-
-.flex-item-40 {
-    -ms-flex-preferred-size: 40%;
-    flex-basis: 40%;
-}
-
-.flex-item-45 {
-    -ms-flex-preferred-size: 45%;
-    flex-basis: 45%;
-}
-
-.flex-item-55 {
-    -ms-flex-preferred-size: 55%;
-    flex-basis: 55%;
-}
-
-.flex-item-60 {
-    -ms-flex-preferred-size: 60%;
-    flex-basis: 60%;
-}
-
-.flex-item-65 {
-    -ms-flex-preferred-size: 65%;
-    flex-basis: 65%;
-}
-
-.flex-item-70 {
-    -ms-flex-preferred-size: 70%;
-    flex-basis: 70%;
-}
-
-.flex-item-75 {
-    -ms-flex-preferred-size: 75%;
-    flex-basis: 75%;
-}
-
-.flex-item-80 {
-    -ms-flex-preferred-size: 80%;
-    flex-basis: 80%;
+.flex-grow-1 {
+    flex-grow: 1;
 }

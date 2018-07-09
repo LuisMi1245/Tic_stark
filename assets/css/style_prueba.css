@@ -1,0 +1,37 @@
+.portada {
+    flex-grow: 1;
+    /* height: 100%; */
+    padding: 16% 0 16% 0;
+}
+
+.a {
+    /* Style for "CREATIVIDAD" */
+    color: #ffffff;
+    font-size: 57px;
+    font-weight: 600;
+    letter-spacing: 12px;
+    line-height: 64px;
+    text-transform: uppercase;
+}
+
+.b {
+    /* Style for "NUESTRA PRIORIDAD */
+    color: #ffffff;
+    font-size: 27px;
+    font-weight: 300;
+    letter-spacing: 12px;
+    text-transform: uppercase;
+}
+
+.c {
+    /* Style for "MARCA / DI" */
+    color: #e1e1e1;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.boton {
+    margin-top: 5%;
+}

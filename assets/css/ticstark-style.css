@@ -35,13 +35,14 @@ EFECTOS A LAS IMAGENES.
 
 .img-width-full {
     width: 100%;
+    height: 100%;
 }
 
 .margin-5 {
     margin: 5%;
 }
 
-.border {
+.border>* {
     border: thin solid black;
 }
 
@@ -243,6 +244,10 @@ nav.header-nav ul li:first-child>a::before {
 
 nav.header-nav ul>li:hover {
     padding-right: 30px;
+}
+
+nav.header-nav ul>li:nth-child(5):hover {
+    padding-left: 30px;
 }
 
 nav.header-nav li:hover a::before {
@@ -467,8 +472,38 @@ nav.header-nav li>a:visited {
     background-color: white;
 }
 
+.background-color-ts-6 {
+    /* Style for "SECTION 01" */
+    background-color: #fcf6f6;
+}
+
+.background-color-ts-7 {
+    /* Style for "SECTION 01" */
+    background-color: #fcfcfc;
+}
+
+.background-color-ts-8 {
+    /* Style for "SECTION 01" */
+    background-color: #f6f6f6;
+}
+
 .background-img-ticstark {
     background-image: url('../img/compreso/TICSTARK-filter.png');
+    background-size: 100%;
+}
+
+.background-path-1 {
+    background-image: url('../img/compreso/path-5.png');
+    background-size: 100%;
+}
+
+.background-path-2 {
+    background-image: url('../img/compreso/path-6.png');
+    background-size: 100%;
+}
+
+.background-path-3 {
+    background-image: url('../img/compreso/path-7.png');
     background-size: 100%;
 }
 
@@ -493,4 +528,75 @@ button.button:hover {
     box-shadow: 0.1rem 0.1rem 0.1rem rgb(109, 14, 31);
     -webkit-transition: background-color .5s;
     transition: background-color .5s;
+}
+
+/* EFECTO CAJA (PROPIEDADES INICIALES) */
+
+.efecto-caja-1,
+.efecto-caja-2,
+.efecto-caja-3,
+.efecto-caja-4 {
+    transition: all .5s;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.efecto-caja-1>figure>div>span.a-1,
+.efecto-caja-2>figure>div>span.a-1,
+.efecto-caja-3>figure>div>span.a-1,
+.efecto-caja-4>figure>div>span.a-1 {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    transition: .4s;
+}
+
+.efecto-caja-1>figure>div>span.b-1,
+.efecto-caja-2>figure>div>span.b-1,
+.efecto-caja-3>figure>div>span.b-1,
+.efecto-caja-4>figure>div>span.b-1 {
+    /* Style for "SERVICIOS-2" */
+    color: #ffffff;
+    font-size: 15.5px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    transition: all .4s;
+}
+
+/* EFECTO GENERAL */
+
+/* PSDT: NO AHORRO LÍNEAS
+PARA EL EFECTO CONTENT */
+
+.efecto-caja-1:hover>figure>div>span.a-1,
+.efecto-caja-2:hover>figure>div>span.a-1,
+.efecto-caja-3:hover>figure>div>span.a-1,
+.efecto-caja-4:hover>figure>div>span.a-1 {
+    transition: font-size .4s;
+    font-size: 33px;
+}
+
+.efecto-caja-1:hover>figure>div>span.b-1,
+.efecto-caja-2:hover>figure>div>span.b-1,
+.efecto-caja-3:hover>figure>div>span.b-1,
+.efecto-caja-4:hover>figure>div>span.b-1 {
+    transition: font-size .4s;
+    font-size: 20.5px;
+}
+
+.efecto-caja-1:hover,
+.efecto-caja-2:hover,
+.efecto-caja-3:hover,
+.efecto-caja-4:hover {
+    background-color: #900b2f;
+    transition: background-color .4s;
+}
+
+@media all and (min-width: 1000px) {
+    .servicios {
+        flex-flow: row wrap;
+    }
 }

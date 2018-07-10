@@ -1,6 +1,5 @@
 .portada {
     flex-grow: 1;
-    /* height: 100%; */
     padding: 16% 0 16% 0;
 }
 
@@ -32,6 +31,34 @@
     text-transform: uppercase;
 }
 
+.a-2 {
+    /* Style for "IDENTIDAD" */
+    /* margin-top: 15%; */
+    margin-bottom: 8%;
+    color: #000000;
+    font-size: 29.5px;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+.b-2 {
+    /* Style for "Le damos i" */
+    color: #95989a;
+    font-size: 17.5px;
+    font-weight: 300;
+}
+
+.sr {
+    padding: 10%;
+}
+
 .boton {
     margin-top: 5%;
 }
+
+.img-width-margin {
+    width: 80%;
+    height: auto;
+}
+
+  

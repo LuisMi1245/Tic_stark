@@ -95,7 +95,7 @@ CANCELA EL USO DE ALINEACIONES FLEXBOX */
     flex-wrap: nowrap;
     -webkit-box-flex: 0;
     -ms-flex: 0 1 auto;
-    flex: 0 1 auto;
+    flex: 1 1 auto;
     width: 100%;
     max-width: 100%;
     /* flex grow, flex shrink, flex basis */
@@ -118,7 +118,7 @@ CANCELA EL USO DE ALINEACIONES FLEXBOX */
     order: 0;
     -webkit-box-flex: 0, ;
     -ms-flex: 0, 0, auto;
-    flex: 0, 0, auto;
+    flex: 1 1 auto;
     /* align-self: auto; */
 }
 
@@ -199,6 +199,5 @@ CANCELA EL USO DE ALINEACIONES FLEXBOX */
     -ms-flex-positive: 1;
     flex-grow: 1;
     -ms-flex-preferred-size: 0;
-    flex-basis: 0;
     max-width: 100%;
 }

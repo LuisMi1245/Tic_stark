@@ -41,14 +41,13 @@ con respecto a su padre (container).
 <body>
 
     <!-- HEADER -->
-    <header class="header-fix container-flex fixed-position" id="HEADER">
+    <header class="header-fix container-flex fixed-position nowrap-align-baseline" id="HEADER">
 
         <!-- LOGOTIPO -->
         <div class="col-item-flex-3 ">
             <figure class="header-logo">
                 <a href="#PORTADA">
-                    <span class="header-logo-a f-segoe-r">TIC</span>
-                    <span class="header-logo-b f-segoe-b">STARK.</span>
+                    <span class="header-logo-a f-segoe-r">TIC</span><span class="header-logo-b f-segoe-b">STARK.</span>
                 </a>
             </figure>
         </div>
@@ -103,125 +102,127 @@ con respecto a su padre (container).
     </section>
 
     <main class="main_content">
+
         <!-- SERVICIOS DE TICSTARK -->
         <section class="container-flex servicios">
 
-            <div class="col-item-flex-3 background-color-ts-5">
+            <div class="efecto-caja-1 bloque-servicios col-item-flex-3 background-color-ts-5">
                 <figure class="container-flex flex-grow-1 flexflow-c-ol nowrap-align-center">
                     <div class="col-item-auto all-color-ticstark-white">
-                        <a href="#" alt="diseno_web">POSICIONAMOS</a>
+                        <span class="f-segoe-r b-1" href="#">POSICIONAMOS</span>
                     </div>
                     <div class="col-item-auto all-color-ticstark-white">
-                        <a href="#" alt="diseno_web">TU MARCA</a>
+                        <span class="f-segoe-r a-1" href="#">TU MARCA</span>
                     </div>
                 </figure>
             </div>
 
-            <div class="col-item-flex-3 background-color-ts-5-1">
+            <div class="efecto-caja-2 bloque-servicios col-item-flex-3 background-color-ts-5-1">
                 <figure class="container-flex flex-grow-1 flexflow-c-ol nowrap-align-center">
                     <div class="col-item-auto all-color-ticstark-white">
-                        <a href="#">CREAMOS</a>
+                        <span class="f-segoe-r a-1" href="#">CREAMOS</span>
                     </div>
                     <div class="col-item-auto all-color-ticstark-white">
-                        <a href="#">COMUNIDADES</a>
+                        <span class="f-segoe-r b-1" href="#">COMUNIDADES</span>
                     </div>
                 </figure>
             </div>
 
-            <div class="col-item-flex-3 background-color-ts-5-2">
+            <div class="efecto-caja-3 bloque-servicios col-item-flex-3 background-color-ts-5-2">
                 <figure class="container-flex flex-grow-1 flexflow-c-ol nowrap-align-center">
                     <div class="col-item-auto all-color-ticstark-white">
-                        <a href="#">GENERAMOS</a>
+                        <span class="f-segoe-r b-1" href="#">GENERAMOS</span>
                     </div>
                     <div class="col-item-auto all-color-ticstark-white">
-                        <a href="#">LEADS</a>
+                        <span class="f-segoe-r a-1" href="#">LEADS</span>
                     </div>
                 </figure>
             </div>
 
-            <div class="col-item-flex-3 background-color-ts-5-3">
+            <div class="efecto-caja-4 bloque-servicios col-item-flex-3 background-color-ts-5-3">
                 <figure class="container-flex flex-grow-1 flexflow-c-ol nowrap-align-center">
                     <div class="col-item-auto all-color-ticstark-white">
-                        <a href="#">DISEÑAMOS</a>
+                        <span class="f-segoe-r a-1" href="#">DISEÑAMOS</span>
                     </div>
                     <div class="col-item-auto all-color-ticstark-white">
-                        <a href="#">ESTRATEGIAS DIGITALES</a>
+                        <span class="f-segoe-r b-1" href="#">ESTRATEGIAS DIGITALES</span>
                     </div>
                 </figure>
-            </div>
-
-        </section>
-
-        <!-- CARROUSEL SERVICIOS-->
-        <section class="container background-color-ts-2" id="carrousel">
-            <div class="container_h d-flex">
-                <article class="d-flex-item col-6 f-nexa-b t-all-center color-ticstark-4">
-                    <h1 class="subtitulo-b">POSICIONAMOS TU MARCA</h1>
-                </article>
-                <article class="d-flex-item col-6 f-nexa-b t-all-center color-ticstark-4">
-                    <h1 class="subtitulo-b">DE ESTA MANERA</h1>
-                </article>
             </div>
         </section>
 
-        <!-- NOSOTROS -->
-        <section class="container background-color-ts-1" id="nosotros">
-            <article class="text-container">
-                <h9 class="f-nexa-b color-ticstark-2">NUESTRO EQUIPO:</h9>
-                <h3 class="subtitulo-c f-nexa-b color-ticstark-4">TENEMOS PERSONAS, NO EMPLEADOS</h3>
+        <!-- SERVICIOS DETALLADOS -->
+        <section class="container-flex background-color-ts-6">
+            <article class="col-item-flex-4">
+                <img class="img-width-full" src="assets/img/compreso/path-5.png">
             </article>
+            <article class="col-item-flex-8">
+                <div class="container-flex flexflow-c-ol sr">
+                    <div class="col-item-auto">
+                        <h1 class="f-segoe-sl a-2">IDENTIDAD DE MARCA</h1>
+                    </div>
+                    <div class="col-item-auto">
+                        <p class="f-segoe-r b-2">Le damos identidad a tu marca, teniendo claro el segmento de mercado y tu público objetivo.</p>
+                    </div>
+                </div>
+            </article>
+        </section>
 
+        <section class="container-flex flexflow-r-ol background-white">
+            <article class="col-item-flex-8">
+                <div class="container-flex flexflow-c-ol sr">
+                    <div class="col-item-auto">
+                        <h1 class="f-segoe-sl a-2">MARKETING DIGITAL</h1>
+                    </div>
+                    <div class="col-item-auto">
+                        <p class="f-segoe-r b-2">Diseñamos estrategias y usamos herramientas para llegar a tu público verdadero, siempre ofreciendo
+                            lo que ellos necesitan de tu marca.</p>
+                    </div>
+                </div>
+            </article>
+            <article class="col-item-flex-4">
+                <img class="img-width-full" src="assets/img/compreso/path-6.png">
+            </article>
+        </section>
 
-            <div class="container_g container-flex background-white">
-                <article class="item-container col-3 d-flex-item t-all-center">
-                    <img class="img-width-full" src="assets/img/compreso/Carlos_foto.jpeg" alt="Fotografia Carlos">
-                    <h4 class="subtitulo-c color-ticstark-3 f-nexa-b">Carlos</h4>
-                    <p class="texto_b f-nexa-b color-ticstark-2">Líder de producto</li>
-                </article>
-                <article class="item-container col-3 d-flex-item f-nexa-b t-all-center">
-                    <img class="img-width-full" src="assets/img/compreso/Estaban_foto.jpeg" alt="Fotografia Esteban">
-                    <h4 class="subtitulo-c color-ticstark-3 f-nexa-b">Esteban</h4>
-                    <p class="texto_b f-nexa-b color-ticstark-2">Marketing</li>
-                </article>
-                <article class="item-container col-3 d-flex-item f-nexa-b t-all-center">
-                    <img class="img-width-full" src="assets/img/compreso/Kevin_foto.jpeg" alt="Fotografia Kevin">
-                    <h4 class="subtitulo-c color-ticstark-3 f-nexa-b">Kevin</h4>
-                    <p class="texto_b f-nexa-b color-ticstark-2">Administrador</li>
-                </article>
-                <article class="item-container col-3 d-flex-item f-nexa-b t-all-center">
-                    <img class="img-width-full" src="assets/img/compreso/Andres_foto.jpeg" alt="Fotografia Andrés">
-                    <h4 class="subtitulo-c color-ticstark-3 f-nexa-b">Andrés</h4>
-                    <p class="texto_b f-nexa-b color-ticstark-2">Diseñador</li>
-                </article>
-            </div>
+        <section class="container-flex background-color-ts-7">
+            <article class="col-item-flex-4">
+                <img class="img-width-full" src="assets/img/compreso/path-7.png">
+            </article>
+            <article class="col-item-flex-8">
+                <div class="container-flex flexflow-c-ol sr">
+                    <div class="col-item-auto">
+                        <h1 class="f-segoe-sl a-2">REDES SOCIALES</h1>
+                    </div>
+                    <div class="col-item-auto">
+                        <p class="f-segoe-r b-2">Creamos contenido para las comunidades digitales, en Facebook e Instagram, que se identifiquen con
+                            tu marca.</p>
+                    </div>
+                </div>
+            </article>
         </section>
 
         <!-- BLOG (PERMITE CAMBIOS EN ELEMENTOS CON FLEX) -->
-        <section class="container all-color-ticstark-4 background-color-ts-1" id="BLOG">
+        <section class="background-color-ts-1" id="BLOG">
             <article class="text-container">
-                <h2 class="subtitulo-c f-nexa-b">NUESTRO BLOG</h2>
+                <h2 class="subtitulo-c f-nexa-b">BLOG</h2>
             </article>
-            <div class="container_g container-flex flexflow-r-ol fitems-spacearound">
-                <article class="item-container flex-item-30 f-nexa-b">
-                    <img class="img-width-full" src="#">
-                    <h4 class="subtitulo-b">DIA 1</h4>
-                    <p class="texto_b">NOTICIA 1</li>
+        
+            <div class="container-flex flexflow-r-ol fitems-center">
+                <article class="col-item-auto">
+                    <img class="img-width-margin" src="assets/img/compreso/path-2.png">
                 </article>
-                <article class="item-container flex-item-30 f-nexa-b">
-                    <img class="img-width-full" src="#">
-                    <h4 class="subtitulo-b">DIA 2</h4>
-                    <p class="texto_b">NOTICIA 2</li>
+                <article class="col-item-auto">
+                    <img class="img-width-margin" src="assets/img/compreso/path-3.png">
                 </article>
-                <article class="item-container flex-item-30 f-nexa-b">
-                    <img class="img-width-full" src="#">
-                    <h4 class="subtitulo-b">DIA 3</h4>
-                    <p class="texto_b">NOTICIA 3</li>
+                <article class="col-item-auto">
+                    <img class="img-width-margin" src="assets/img/compreso/path-4.png">
                 </article>
             </div>
         </section>
 
         <!-- PARTNERS/CLIENTES (PERMITE CAMBIOS EN ELEMENTOS CON FLEX) -->
-        <section class="container" id="CUSTOMERS">
+        <section class="container-flex" id="CUSTOMERS">
             <div class=" container-flex flexflow-f-ol all-color-ticstark-1 background-color-ts-3">
                 <article class="col-3 d-flex-item text-container">
                     <h2 class="subtitulo-c f-nexa-b">NUESTROS CLIENTES</h2>
@@ -234,7 +235,7 @@ con respecto a su padre (container).
         </section>
 
         <!-- FORMULARIO DE CONTACTO (PERMITE CAMBIOS EN ELEMENTOS CON FLEX)-->
-        <section class="container container-flex flexflow-r-ol nowrap-align-stretch all-color-ticstark-1 background-color-ts-4" id="FAQ">
+        <section class="container-flex all-color-ticstark-1 background-color-ts-4" id="FAQ">
             <article class="text-container flex-item-45">
                 <h2 class="subtitulo-c f-nexa-b">CONTACTENOS (FOOTER)</h2>
             </article>

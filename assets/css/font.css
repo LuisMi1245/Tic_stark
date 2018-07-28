@@ -29,6 +29,11 @@
 }
 
 @font-face {
+    font-family: 'segoe-bold-new';
+    src: url('../fonts/SegoeBold2/segoeuib.ttf');
+}
+
+@font-face {
     font-family: 'segoe-semibold';
     src: url('../fonts/SegoeSemiBold/seguisb.ttf');
 }

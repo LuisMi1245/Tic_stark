@@ -94,7 +94,7 @@ CANCELA EL USO DE ALINEACIONES FLEXBOX */
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
     -webkit-box-flex: 0;
-    -ms-flex: 0 1 auto;
+    -ms-flex: 1 1 auto;
     flex: 1 1 auto;
     width: 100%;
     max-width: 100%;
@@ -201,3 +201,5 @@ CANCELA EL USO DE ALINEACIONES FLEXBOX */
     -ms-flex-preferred-size: 0;
     max-width: 100%;
 }
+
+/* Grillas con CSS Grid Layout */

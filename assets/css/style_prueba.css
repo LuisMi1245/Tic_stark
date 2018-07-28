@@ -7,7 +7,7 @@
     /* Style for "CREATIVIDAD" */
     color: #ffffff;
     font-size: 57px;
-    font-weight: 600;
+    font-weight: 900;
     letter-spacing: 12px;
     line-height: 64px;
     text-transform: uppercase;
@@ -48,17 +48,39 @@
     font-weight: 300;
 }
 
+.c-2 {
+    /* Style for "BLOG" */
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.c-3 {
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
 .sr {
     padding: 10%;
+}
+
+.sr3 {
+    padding: 5%;
 }
 
 .boton {
     margin-top: 5%;
 }
 
-.img-width-margin {
-    width: 80%;
-    height: auto;
+.blog {
+    padding-bottom: 6%;
 }
 
-  
+.customer {
+    padding: 3%;
+}
+
+.text-container {
+    padding: 3% 0% 3% 4%;
+}

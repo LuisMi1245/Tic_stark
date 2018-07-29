@@ -18,7 +18,7 @@
     color: #ffffff;
     font-size: 27px;
     font-weight: 300;
-    letter-spacing: 12px;
+    letter-spacing: 13.5px;
     text-transform: uppercase;
 }
 
@@ -27,13 +27,49 @@
     color: #e1e1e1;
     font-size: 22px;
     font-weight: 400;
-    letter-spacing: 3px;
+    letter-spacing: 3.5px;
     text-transform: uppercase;
+}
+
+.d {
+    /* Style for "COPYRIGHT" */
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 3% 6% 3% 6%;
+}
+
+.e {
+    /* Style for "UBICACION" */
+    color: #ffffff;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 10% 0% 10% 0%;
+}
+
+ul.f>* {
+    /* Style for "info@ticst" */
+    color: #d8d9d9;
+    font-family: "Segoe UI";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.g>* {
+    /* Style for "info@ticst" */
+    color: #4c4e50;
+    font-family: "Segoe UI";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.g1 {
+    padding-bottom: 5%;
 }
 
 .a-2 {
     /* Style for "IDENTIDAD" */
-    /* margin-top: 15%; */
     margin-bottom: 8%;
     color: #000000;
     font-size: 29.5px;
@@ -67,6 +103,10 @@
 
 .sr3 {
     padding: 5%;
+}
+
+.sr4 {
+    padding: 3% 6% 3% 6%;
 }
 
 .boton {

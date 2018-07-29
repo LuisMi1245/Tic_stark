@@ -422,6 +422,14 @@ nav.header-nav li>a:visited {
     color: #4c4e50;
 }
 
+.color-ticstark-7 {
+    color: #95989a;
+}
+
+.color-ticstark-8 {
+    color: #d8d9d9;
+}
+
 .color-ticstark-white {
     color: white;
 }
@@ -452,6 +460,10 @@ nav.header-nav li>a:visited {
 
 .all-color-ticstark-6>* {
     color: #4c4e50;
+}
+
+.all-color-ticstark-7>* {
+    color: #95989a;
 }
 
 .all-color-ticstark-white>* {
@@ -529,6 +541,10 @@ nav.header-nav li>a:visited {
 
 .background-color-ts-9 {
     background-color: #040610;
+}
+
+.background-color-ts-10 {
+    background-color: #090c17;
 }
 
 .background-img-ticstark {
@@ -627,4 +643,3 @@ PARA EL EFECTO CONTENT */
     -webkit-transition: background-color .4s;
     transition: background-color .4s;
 }
-

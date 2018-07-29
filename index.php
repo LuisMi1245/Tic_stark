@@ -90,7 +90,7 @@ con respecto a su padre (container).
                     <h1 class="f-segoe-sb a">CREATIVIDAD</h1>
                 </div>
                 <div class="col-item-auto">
-                    <h2 class="f-segoe-sl-webkit f-segoe-sl  b">NUESTRA PRIORIDAD</h1>
+                    <h2 class="f-segoe-sl-webkit f-segoe-sl b">NUESTRA PRIORIDAD</h1>
                 </div>
                 <div class="col-item-auto">
                     <h2 class="f-segoe-r c">MARCA / DISEÑO / DESARROLLO</h2>
@@ -180,8 +180,7 @@ con respecto a su padre (container).
                             <h1 class="f-segoe-sl f-segoe-sl-webkit a-2">MARKETING DIGITAL</h1>
                         </div>
                         <div class="col-item-auto">
-                            <p class="f-segoe-r b-2">Diseñamos estrategias y usamos herramientas para llegar a tu público verdadero, siempre ofreciendo
-                                lo que ellos necesitan de tu marca.</p>
+                            <p class="f-segoe-r b-2">Diseñamos estrategias y usamos herramientas para llegar a tu público verdadero, siempre ofreciendo lo que ellos necesitan de tu marca.</p>
                         </div>
                     </div>
                 </article>
@@ -196,14 +195,14 @@ con respecto a su padre (container).
                 <article class="col-item-flex-4">
                     <img class="img-full" src="assets/img/compreso/path-7.png">
                 </article>
+
                 <article class="col-item-flex-8">
                     <div class="container-flex flexflow-c-ol sr">
                         <div class="col-item-auto">
                             <h1 class="f-segoe-sl f-segoe-sl-webkit a-2">REDES SOCIALES</h1>
                         </div>
                         <div class="col-item-auto">
-                            <p class="f-segoe-r b-2">Creamos contenido para las comunidades digitales, en Facebook e Instagram, que se identifiquen
-                                con tu marca.</p>
+                            <p class="f-segoe-r b-2">Creamos contenido para las comunidades digitales, en Facebook e Instagram, que se identifiquen con tu marca.</p>
                         </div>
                     </div>
                 </article>
@@ -263,27 +262,69 @@ con respecto a su padre (container).
         <!-- FORMULARIO DE CONTACTO (PERMITE CAMBIOS EN ELEMENTOS CON FLEX)-->
         <section class="container-fluido" id="FAQ">
             <div class="container-flex">
-                <div class="col-item-flex-4 background-color-ts-8">
-                    <div class="sr3 container-flex flexflow-c-ol nowrap-align-center">
-                        <h2 class="c-2 f-segoe-bn color-ticstark-6">CONTACTO</h2>
-                        <ul class="lista-none">
-                            <li>info@ticstark.com</li>
-                            <li>3003422392</li>
-                            <li>www.ticstark.com</li>
-                        </ul>
-                    </div>
+                <div class="col-item-flex-4 background-color-ts-8 sr4">
+                    <h2 class="c-2 f-segoe-bn color-ticstark-6 g1">CONTACTO</h2>
+                    <ul class="lista-none g">
+                        <li>info@ticstark.com</li>
+                        <li>+57 300-3422392</li>
+                        <li>
+                            <a href="www.ticstark.com">www.ticstark.com</a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="col-item-flex-8 background-color-ts-7">
-                    <div class="sr3 container-flex color-ticstark-6">
-                        <h2 class="c-3 f-segoe-r ">ENVÍANOS TU MENSAJE</h2>
-                    </div>
+                <div class="col-item-flex-8 background-color-ts-7 sr4">
+                    <h2 class="c-3 f-segoe-r color-ticstark-6">ENVÍANOS TU MENSAJE</h2>
                 </div>
             </div>
         </section>
     </main>
 
     <!-- FOOTER -->
-    <footer class="container-fluido"></footer>
+    <footer class="container-fluido">
+        <section class="container-flex flexflow-c-ol">
+            <div class="background-color-ts-10 container-flex flexflow-r-ol all-color-ticstark-white">
+                <div class="col-item-flex-3 sr4">
+                    <h3 class="f-segoe-sb e">UBICACIÓN</h3>
+                    <ul class="lista-none f">
+                        <li>info@ticstark.com</li>
+                        <li>+57 300-3422392</li>
+                        <li>Cra 11 #30-66</li>
+                        <li>Montería-Córdoba</li>
+                    </ul>
+                </div>
+                <div class="col-item-flex-3 sr4">
+                    <h3 class="f-segoe-sb e">SERVICIOS</h3>
+                    <ul class="lista-none f">
+                        <li>Identidad de Marca</li>
+                        <li>Marketing Digital</li>
+                        <li>Redes Sociales</li>
+                        <li>Diseño Web</li>
+                        <li>Desarrollo eCommerce</li>
+                    </ul>
+                </div>
+                <div class="col-item-flex-3 sr4">
+                    <h3 class="f-segoe-sb e">AGENCIA</h3>
+                    <ul class="lista-none f">
+                        <li>Blog</li>
+                        <li>¿Quienes somos?</li>
+                        <li>Trabaje con nosotros.</li>
+                        <li>Contacto.</li>
+                        <li>Política de privacidad y manejo de datos.</li>
+                    </ul>
+                </div>
+                <div class="col-item-flex-3 sr4">
+                    <h3 class="f-segoe-sb e">NOSOTROS</h3>
+                    <ul class="lista-none f">
+                        <li>SIGUENOS</li>
+                        <li>SIGUENOS</li>
+                        <li>SIGUENOS</li>
+                        <li>SIGUENOS</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="background-color-ts-9 f-segoe-sb color-ticstark-7 d">COPYRIGHT © 2018 TICSTARK. TODOS LOS DERECHOS RESERVADOS.</div>
+        </section>
+    </footer>
 </body>
 
 </html>

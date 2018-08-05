@@ -1,0 +1,28 @@
+@media screen and (max-width:1024px) and (orientation:landscape) {
+    .prueba {
+        /* color: red; */
+    }
+    .portada {
+        padding: 32vh 0 32vh 0;
+    }
+    /* HEADER V2 */
+    nav.header-nav ul li>a {
+        font-size: 1.3vw;
+    }
+    nav.header-nav ul>li {
+        padding: 0vw 1vw 0vw 1vw;
+    }
+    /* FUENTES PORTADA V2 */
+    .a {
+        font-size: 4.89vw;
+    }
+    .b {
+        font-size: 2.5vw;
+    }
+    .c {
+        font-size: 1.83vw;
+    }
+    .boton {
+        margin: 7vh;
+    }
+}

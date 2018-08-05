@@ -1,0 +1,85 @@
+/* video#bgvid { position: fixed; top: 50%; left: 50%; min-width: 100%; min-height: 100%; width: auto; height: auto; z-index: -100; -ms-transform: translateX(-50%) translateY(-50%); -moz-transform: translateX(-50%) translateY(-50%); -webkit-transform: translateX(-50%) translateY(-50%); transform: translateX(-50%) translateY(-50%); background: url(polina.jpg) no-repeat; background-size: cover; } */
+
+/* * {
+    border: 3px solid black;
+} */
+
+.link {
+    font-family: 'nexa-light';
+    font-size: 20px;
+}
+body {
+    margin: 0%;
+}
+#PORTADA {
+    background-image: url('assets/img/TICSTARK.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #ffffff;
+    font-family: 'nexa-bold';
+    font-size: 80px;
+    letter-spacing: 20px;
+    text-align: center;
+}
+   
+#titulo_2 {
+    color: #EE1C44;
+    display: inline;
+}
+
+.eslogan {
+    color: #ffffff;
+    /* background-color: rgba(184, 184, 184, .35);
+    padding: 10px; */
+    font-size: .3em;
+    letter-spacing: 10px;
+    /* display: inline-block; */
+    
+}
+
+.titulo_a {
+    font-size: 20px;
+    font-family: 'nexa-bold';
+    color: #222;
+}
+
+.titulo_b {
+    font-size: 20px;
+    font-family: 'nexa-bold';
+}
+
+.bloque_img {
+    width: 200px;
+    height: auto;
+}
+#sub_titulo {
+font-size:15px ;
+font-family: 'nexa-bold';
+color: rgba(184, 184, 184, .6);
+}
+.bloque {
+    display: inline-block;
+    margin: 40px;
+    color: #222;
+    font-family: 'nexa-light';
+}
+.boton {
+    display: inline-block;
+}
+#CUSTOMERS {
+    background-color: #313746;
+}
+
+section .titulo_a {
+     color: #ffffff;
+}
+.logotipo {
+    display: inline-block;
+}
+.MENU {
+    display: inline-block;
+}
+.MENU li {
+    display: inline-block;
+}

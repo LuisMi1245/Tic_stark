@@ -41,7 +41,7 @@ Requiere una clase padre clear*/
 Requiere una clase padre font-0 + alineación vertical*/
 
 .font-0 {
-    font-size: 0rem;
+    font-size: 0vw;
 }
 
 .d-line-b {
@@ -304,6 +304,8 @@ USAMOS ALIGN ITEMS (SI ES NOWRAP) O ALIGN CONTENT (SI ES WRAP/REVERSE) */
 /* CRECIMIENTO DE LOS CONTAINERS FLEX */
 
 .flex-grow-1 {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
     flex-grow: 1;
 }
 

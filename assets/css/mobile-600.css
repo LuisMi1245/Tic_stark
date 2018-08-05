@@ -1,0 +1,26 @@
+@media screen and (max-width:600px) and (orientation:portrait) {
+    .prueba {
+        /* color: aqua; */
+    }
+    .portada {
+        padding: 25vh 0 25vh 0;
+    }
+    nav.header-nav ul li>a {
+        font-size: 1.55vw;
+    }
+    /* BARRA DE NAVEGACIÓN ESCONDIDA */
+    /* FUENTES PORTADA V3*/
+    .a {
+        font-size: 5.89vw;
+        line-height: 5.7vw;
+    }
+    .b {
+        font-size: 3vw;
+    }
+    .c {
+        font-size: 2.33vw;
+    }
+    .boton {
+        margin: 5vh;
+    }
+}

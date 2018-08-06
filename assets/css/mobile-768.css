@@ -1,40 +1,64 @@
-@media screen and (max-width:768px) and (orientation:portrait) {
-    .prueba {
-        /* color: green; */
-    }
+@media screen and (max-width:800px) and (orientation:portrait) {
+    /* .prueba {
+        color: green;
+    } */
     .portada {
-        padding: 29vh 0 28vh 0;
+        padding: 25vh 0 20vh 0;
+    }
+    nav.header-nav ul li>a {
+        font-size: 1.5vw;
+    }
+    nav.header-nav ul>li {
+        padding: 0vw 1vw 0vw 1vw;
     }
     /* FUENTES PORTADA V3*/
     .a {
-        font-size: 5.59vw;
-        line-height: 5.1vw;
+        font-size: 5.4vw;
+        line-height: 5vw;
     }
     .b {
-        font-size: 3vw;
+        font-size: 2.8vw;
     }
     .c {
-        font-size: 2.13vw;
+        font-size: 2vw;
     }
     .boton {
-        margin: 4vh;
+        margin: 3vh;
     }
     a.button,
     button.button,
     input.button {
         font-size: 2vw;
     }
+    /* SERVICIOS */
+    .efecto-caja>figure>div>span.a-1 {
+        font-size: 2.25vw;
+    }
+    .efecto-caja>figure>div>span.b-1 {
+        font-size: 1.30vw;
+    }
+    .efecto-caja:hover>figure>div>span.a-1 {
+        font-size: 2.35vw;
+    }
+    .efecto-caja:hover>figure>div>span.b-1 {
+        font-size: 1.42vw;
+    }
+    .a-2 {
+        margin-bottom: 8%;
+        font-size: 2.48vw;
+    }
+    .b-2 {
+        font-size: 1.6vw;
+    }
 }
 
-/* 768px no alcanzan a detectarse como orientación vertical */
-
 @media screen and (max-width:768px) and (orientation:landscape) {
-    .prueba {
-        /* color: green; */
-    }
     .portada {
-        padding: 36vh 0 35vh 0;
+        padding: 25vh 0 25vh 0;
     }
+    /* .prueba {
+        color: green;
+    } */
     nav.header-nav ul li>a {
         font-size: 1.5vw;
     }
@@ -59,5 +83,25 @@
     button.button,
     input.button {
         font-size: 2vw;
+    }
+    /* SERVICIOS */
+    .efecto-caja>figure>div>span.a-1 {
+        font-size: 2.25vw;
+    }
+    .efecto-caja>figure>div>span.b-1 {
+        font-size: 1.30vw;
+    }
+    .efecto-caja:hover>figure>div>span.a-1 {
+        font-size: 2.35vw;
+    }
+    .efecto-caja:hover>figure>div>span.b-1 {
+        font-size: 1.42vw;
+    }
+    .a-2 {
+        margin-bottom: 8%;
+        font-size: 2.48vw;
+    }
+    .b-2 {
+        font-size: 1.6vw;
     }
 }

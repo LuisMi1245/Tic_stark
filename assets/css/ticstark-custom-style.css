@@ -69,20 +69,31 @@ ul.f>* {
     padding-bottom: 5%;
 }
 
+.h {
+    margin-top: 10%;
+    font-size: 1.5vw;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
 .a-2 {
     /* Style for "IDENTIDAD" */
     margin-bottom: 8%;
-    color: #000000;
+    color: #47454e;
     font-size: 2.18vw;
-    font-weight: 200;
+    font-weight: 100;
     text-transform: uppercase;
 }
 
 .b-2 {
     /* Style for "Le damos i" */
-    color: #95989a;
-    font-size: 1.3vw;
+    color: #6e7174;
+    font-size: 1.5vw;
     font-weight: 300;
+}
+
+strong.b-2 {
+    color: #232425;
 }
 
 .c-2,
@@ -113,16 +124,12 @@ ul.f>* {
     padding: 4% 0% 4% 0%;
 }
 
-.sr6 {
-    padding: 0% 4% 0% 4%;
-}
-
 .boton {
     margin: 8vh;
 }
 
 .blog {
-    padding-bottom: 6%;
+    padding: 0% 3% 6% 3%
 }
 
 .customer {
@@ -161,16 +168,24 @@ ul.all-color-n>li>* {
     margin-right: 1vw;
 }
 
+.img-relative-2 {
+    width: 10vw;
+    height: 10vw;
+}
+.img-relative-3 {
+    width: 35vw;
+    height: 45vw;
+}
 /* DESKTOP FIRST
 Max width ---> +1366px;
 Puntos Quiebre para Desktop first:
-1366px  1024px  768px   600px   480px   320px
+1200px  1024px  768px   600px   480px   320px
 85.4em  64em    48em    37.5em  30em    20em
 */
 
 /* DESKTOP (ORIENTATION LANDSCAPE ALWAYS) */
-/* 
-@media screen and (max-width:1366px) and (orientation:landscape) {
+
+/* @media screen and (max-width:1200px) {
     .prueba {
         color: black;
     }

@@ -159,7 +159,7 @@ si es nowrap, se desborda, pero solo si flex-direction es column. */
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-flow: column nowrap;
-    flex-flow: column nowrap
+    flex-flow: column nowrap;
 }
 
 /* usada */
@@ -168,7 +168,7 @@ si es nowrap, se desborda, pero solo si flex-direction es column. */
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-flow: column wrap;
-    flex-flow: column wrap
+    flex-flow: column wrap;
 }
 
 .flexflow-c-plr {

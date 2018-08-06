@@ -1,9 +1,9 @@
 window.onscroll = function () {
     var ScrollY = window.scrollY;
-    if (ScrollY > 400) {
+    if (ScrollY > 300) {
         header.style.position = "fixed";
-        header.style.background = "#090c17";
-    } else if (ScrollY < 400) {
+        header.style.background = "#040610";
+    } else if (ScrollY < 300) {
         header.style.position = "";
         header.style.background = "";
     }

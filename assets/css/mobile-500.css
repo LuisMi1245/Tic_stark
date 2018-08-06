@@ -1,33 +1,33 @@
-@media screen and (max-width:600px) {
+@media screen and (max-width:500px) {
     /* .prueba {
-        color: aqua;
+        color: purple;
     } */
     .portada {
-        padding: 25vh 0 25vh 0;
+        padding: 20vh 0 19vh 0;
     }
     nav.header-nav ul li>a {
-        font-size: 1.55vw;
+        font-size: 1.60vw;
     }
     
     /* BARRA DE NAVEGACIÓN ESCONDIDA */
     /* FUENTES PORTADA V3*/
     .a {
-        font-size: 5.89vw;
-        line-height: 5.7vw;
+        font-size: 6.89vw;
+        line-height: 6.7vw;
     }
     .b {
-        font-size: 3vw;
+        font-size: 3.7vw;
     }
     .c {
-        font-size: 2.33vw;
+        font-size: 2.8vw;
     }
     a.button,
     button.button,
     input.button {
-        font-size: 2.3vw;
+        font-size: 2.6vw;
     }
     .boton {
-        margin: 5vh;
+        margin: 2.5vh;
     }
     .bloque-servicios {
         -ms-flex-preferred-size: 50%;
@@ -36,33 +36,22 @@
     }
     /* SERVICIOS */
     .efecto-caja>figure>div>span.a-1 {
-        font-size: 2.6vw;
+        font-size: 3.1vw;
     }
     .efecto-caja>figure>div>span.b-1 {
-        font-size: 1.7vw;
+        font-size: 2.2vw;
     }
     .efecto-caja:hover>figure>div>span.a-1 {
-        font-size: 2.8vw;
+        font-size: 3.3vw;
     }
     .efecto-caja:hover>figure>div>span.b-1 {
-        font-size: 1.9vw;
+        font-size: 2.4vw;
     }
     .a-2 {
         margin-bottom: 8%;
-        font-size: 2.58vw;
+        font-size: 2.68vw;
     }
     .b-2 {
-        font-size: 1.7vw;
-    }
-    /* BLOG */
-    .bloque-blog {
-        -ms-flex-preferred-size: 50%;
-        flex-basis: 40%;
-        max-width: 40%;
-        margin: 5% 0% 5% 0%;
-    }
-    .relative-img{
-        width: 38vw;
-        height: 38vw;
+        font-size: 1.8vw;
     }
 }

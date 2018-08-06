@@ -1,7 +1,7 @@
-@media screen and (max-width:1024px) and (orientation:landscape) {
-    .prueba {
-        /* color: red; */
-    }
+@media screen and (max-width:1024px) {
+    /* .prueba {
+        color: red;
+    } */
     .portada {
         padding: 32vh 0 32vh 0;
     }
@@ -24,5 +24,24 @@
     }
     .boton {
         margin: 7vh;
+    }
+    .efecto-caja>figure>div>span.a-1 {
+        font-size: 2.17vw;
+    }
+    .efecto-caja>figure>div>span.b-1 {
+        font-size: 1.25vw;
+    }
+    .efecto-caja:hover>figure>div>span.a-1 {
+        font-size: 2.25vw;
+    }
+    .efecto-caja:hover>figure>div>span.b-1 {
+        font-size: 1.32vw;
+    }
+    .a-2 {
+        margin-bottom: 8%;
+        font-size: 2.38vw;
+    }
+    .b-2 {
+        font-size: 1.5vw;
     }
 }

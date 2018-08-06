@@ -195,9 +195,8 @@ CANCELA EL USO DE ALINEACIONES FLEXBOX */
 }
 
 .col-item-custom-2 {
-    -ms-flex-preferred-size: 28%;
-    flex-basis: 28%;
-    max-width: 28%;
+    flex-basis: 22%;
+    max-width: 22%;
 }
 
 /* Grillas con CSS Grid Layout */

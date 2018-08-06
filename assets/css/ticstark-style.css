@@ -152,17 +152,6 @@ ul.lista-circle>li {
 
 /* REGLAS PARA HEADER */
 
-header.header-color-back {
-    background-color: #d90e45;
-}
-
-header.header-img-back {
-    background-image: url('../img/compreso/TICSTARK-filter.png');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 figure.header-logo {
     padding: 1.5vw 0vw 1.5vw 1.5vw;
 }
@@ -255,6 +244,14 @@ nav.header-nav li>a:visited {
 
 .f-segoe-sb {
     font-family: 'segoe-semibold';
+}
+
+.f-montserrat-b {
+    font-family: 'montserrat-bold';
+}
+
+.f-montserrat-sb {
+    font-family: 'montserrat-semibold';
 }
 
 /* ALINEACION DE TEXTO */
@@ -499,7 +496,9 @@ nav.header-nav li>a:visited {
 .background-img-ticstark {
     background-image: url('../img/compreso/TICSTARK-filter.png');
     background-size: cover;
-    background-attachment: fixed;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+
 }
 
 .background-img-ticstark-path-5 {
@@ -607,9 +606,6 @@ input[type="email"] {
 
 /* EFECTO GENERAL */
 
-/* PSDT: NO AHORRO LÍNEAS
-PARA EL EFECTO CONTENT */
-
 .efecto-caja:hover>figure>div>span.a-1 {
     font-size: 2.15vw;
     -webkit-transition: font-size .4s;
@@ -637,13 +633,16 @@ PARA EL EFECTO CONTENT */
     position: relative;
     overflow: hidden;
     cursor: pointer;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
 }
 
 .relative-container:hover>.relative-img {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
     -webkit-filter: brightness(.3);
-    filter: brightness(.3);
+    filter: brightness(.25);
 }
 
 .relative-container:hover>.relative-categoria>*,
@@ -653,12 +652,19 @@ PARA EL EFECTO CONTENT */
     transition: all .4s;
 }
 
+.relative-container:hover>.relative-categoria,
+.relative-container:hover>.relative-categoria-2 {
+    background-color: #d90e45;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+}
+
 /* IMAGEN */
 
 .relative-img {
     z-index: 0;
-    width: 100%;
-    height: auto;
+    width: 28vw;
+    height: 28vw;
     -webkit-filter: opacity(.9);
     filter: opacity(.9);
     -webkit-filter: brightness(.6);
@@ -667,40 +673,37 @@ PARA EL EFECTO CONTENT */
     transition: all .4s;
 }
 
-/* CUADRO CONTENEDER 1 */
+/* CUADROS CONTENEDOR */
 
-.relative-categoria {
-    z-index: 1;
-    position: absolute;
-    padding: 2%;
-    margin: 5%;
-    background-color: #ec154e94;
-}
-
-/* CUADRO CONTENEDOR 2 */
-
+.relative-categoria,
 .relative-categoria-2 {
     z-index: 1;
     position: absolute;
-    bottom: 0.37vw;
-    padding: 5%;
+    background-color: #bb0e3cd7;
+    -webkit-transition: all .4s;
+    transition: all .4s;
 }
 
-/* TEXTO 1 */
+.relative-categoria {
+    padding: 2%;
+    margin: 5%;
+}
+
+.relative-categoria-2 {
+    bottom: 0vw;
+    padding: 4%;
+}
+
+/* CUADROS TEXTO*/
+
+.blog-header,
+.blog-cuerpo {
+    color: #e7e7e7;
+    font-family: 'segoe-bold';
+    text-transform: uppercase;
+    font-size: 1.04vw;
+}
 
 .blog-header {
     text-shadow: 0 .22vw 0.44vw rgba(0, 0, 0, 0.16);
-    color: #e7e7e7;
-    font-family: 'segoe-regular-new';
-    font-size: 1.04vw;
-    text-transform: uppercase;
-}
-
-/* TEXTO 2 */
-
-.blog-cuerpo {
-    color: #e7e7e7;
-    font-family: 'segoe-semibold';
-    font-size: 1.04vw;
-    text-transform: uppercase;
 }

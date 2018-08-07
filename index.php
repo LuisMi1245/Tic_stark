@@ -45,9 +45,8 @@ con respecto a su padre (container).
 </head>
 
 <body>
-    <section class="background-img-ticstark">
         <!-- HEADER -->
-        <header class="container-flex nowrap-align-center header-mobile" id="HEADER">
+        <header class="container-flex header-fix nowrap-align-center header-mobile" id="HEADER">
             <!-- LOGOTIPO -->
             <div class="col-item-flex-2">
                 <figure class="header-logo">
@@ -83,7 +82,7 @@ con respecto a su padre (container).
         </header>
 
         <!-- PORTADA (PERMITE CAMBIOS EN ELEMENTOS CON FLEX) -->
-        <section class="portada container-flex" id="PORTADA">
+        <section class="portada container-flex background-img-ticstark" id="PORTADA">
             <!-- <video playsinline autoplay muted loop poster="pulina.jpg" id="video_back">
             <source src="assets/video_header/polina.webm" type="video/webm">
             <source src="pulina.mp4" type="video/mp4">
@@ -105,7 +104,6 @@ con respecto a su padre (container).
                 </figure>
             </div>
         </section>
-    </section>
 
     <!-- SERVICIOS DE TICSTARK -->
     <section class="container-flex flexflow-r-pl">

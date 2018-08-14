@@ -1,9 +1,9 @@
 var header = document.getElementById("HEADER");
 window.onscroll = function () {
-    if (window.pageYOffset > 100) {
+    if (window.pageYOffset >= 90) {
         header.classList.add("header-back-change");
         header.classList.remove("header-back");
-    } else if (window.pageYOffset < 100){
+    } else if (window.pageYOffset <= 90){
         header.classList.add("header-back");
         header.classList.remove("header-back-change");
     }

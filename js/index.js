@@ -1,4 +1,8 @@
+var Webkit = document.getElementsByClassName("f-segoe-sl-webkit");
+var Webkit2 = document.getElementsByClassName("f-segoe-sb");
+var navigatorName = navigator.userAgent.toLowerCase().indexOf("chrome");
 var header = document.getElementById("HEADER");
+
 window.onscroll = function () {
     if (window.pageYOffset >= 90) {
         header.classList.add("header-back-change");
@@ -8,11 +12,8 @@ window.onscroll = function () {
         header.classList.remove("header-back-change");
     }
 }
-var Webkit = document.getElementsByClassName("f-segoe-sl-webkit");
-var Webkit2 = document.getElementsByClassName("f-segoe-sb");
-var navName = navigator.userAgent.toLowerCase().indexOf("chrome");
 
-switch (navName) {
+switch (navigatorName) {
     case -1:
         // Es firefox, se aplica semilight.
         for (var i = 0; i >= Webkit.length; i++) {
@@ -27,3 +28,4 @@ switch (navName) {
             Webkit2[a].style.fontWeight = "300";
         }
 }
+

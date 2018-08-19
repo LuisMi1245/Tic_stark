@@ -1,0 +1,19 @@
+.card {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.274) 2px 2px;
+}
+.relative-img-2{
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    height: 90%;
+    -webkit-filter: opacity(.9);
+    filter: opacity(.9);
+    -webkit-filter: brightness(.6);
+    filter: brightness(.6);
+    -webkit-transition: all .4s;
+    transition: all .4s;
+}
+.cont-categoria{
+
+}

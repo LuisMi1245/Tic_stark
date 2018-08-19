@@ -1,0 +1,336 @@
+@media screen and (max-width:1024px) {
+    /* .prueba {
+        color: red;
+    } */
+    .portada {
+        padding: 32vh 0 32vh 0;
+    }
+    /* HEADER V2 */
+    nav.header-nav ul li>a {
+        font-size: 1.3vw;
+    }
+    nav.header-nav ul>li {
+        padding: 0vw 1vw 0vw 1vw;
+    }
+    /* FUENTES PORTADA V2 */
+    .a {
+        font-size: 4.89vw;
+    }
+    .b {
+        font-size: 2.5vw;
+    }
+    .c {
+        font-size: 1.83vw;
+    }
+    .boton {
+        margin: 7vh;
+    }
+    .a-2 {
+        margin-bottom: 8%;
+        font-size: 2.38vw;
+    }
+    .b-2 {
+        font-size: 1.5vw;
+    }
+}
+
+@media screen and (max-width:800px) and (orientation:portrait) {
+    /* .prueba {
+        color: green;
+    } */
+    .portada {
+        padding: 25vh 0 20vh 0;
+    }
+    nav.header-nav ul li>a {
+        font-size: 1.5vw;
+    }
+    nav.header-nav ul>li {
+        padding: 0vw 1vw 0vw 1vw;
+    }
+    /* FUENTES PORTADA V3*/
+    .a {
+        font-size: 5.4vw;
+        line-height: 5vw;
+    }
+    .b {
+        font-size: 2.8vw;
+    }
+    .c {
+        font-size: 2vw;
+    }
+    .boton {
+        margin: 3vh;
+    }
+    a.button,
+    button.button,
+    input.button {
+        font-size: 2vw;
+    }
+    .a-2 {
+        margin-bottom: 8%;
+        font-size: 2.48vw;
+    }
+    .b-2 {
+        font-size: 1.6vw;
+    }
+}
+
+@media screen and (max-width:768px) and (orientation:landscape) {
+    .portada {
+        padding: 25vh 0 25vh 0;
+    }
+    /* .prueba {
+        color: green;
+    } */
+    nav.header-nav ul li>a {
+        font-size: 1.5vw;
+    }
+    nav.header-nav ul>li {
+        padding: 0vw 1vw 0vw 1vw;
+    }
+    /* FUENTES PORTADA V3*/
+    .a {
+        font-size: 5.4vw;
+        line-height: 5vw;
+    }
+    .b {
+        font-size: 2.8vw;
+    }
+    .c {
+        font-size: 2vw;
+    }
+    .boton {
+        margin: 6vh;
+    }
+    a.button,
+    button.button,
+    input.button {
+        font-size: 2vw;
+    }
+    .a-2 {
+        margin-bottom: 8%;
+        font-size: 2.48vw;
+    }
+    .b-2 {
+        font-size: 1.6vw;
+    }
+}
+
+@media screen and (max-width:600px) {
+    /* .prueba {
+        color: aqua;
+    } */
+    .portada {
+        padding: 25vh 0 25vh 0;
+    }
+    nav.header-nav ul li>a {
+        font-size: 1.55vw;
+    }
+    /* BARRA DE NAVEGACIÓN ESCONDIDA */
+    /* FUENTES PORTADA V3*/
+    .a {
+        font-size: 5.89vw;
+        line-height: 5.7vw;
+    }
+    .b {
+        font-size: 3vw;
+    }
+    .c {
+        font-size: 2.33vw;
+    }
+    a.button,
+    button.button,
+    input.button {
+        font-size: 2.3vw;
+    }
+    .boton {
+        margin: 5vh;
+    }
+    .bloque-servicios {
+        -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+        max-width: 50%;
+    }
+    .a-2 {
+        margin-bottom: 8%;
+        font-size: 2.58vw;
+    }
+    .b-2 {
+        font-size: 1.7vw;
+    }
+    /* BLOG */
+    .bloque-blog {
+        -ms-flex-preferred-size: 50%;
+        flex-basis: 40%;
+        max-width: 40%;
+        margin: 5% 0% 5% 0%;
+    }
+    .relative-img {
+        width: 38vw;
+        height: 38vw;
+    }
+}
+
+@media screen and (max-width:500px) {
+    /* .prueba {
+        color: purple;
+    } */
+    .portada {
+        padding: 20vh 0 19vh 0;
+    }
+    nav.header-nav ul li>a {
+        font-size: 1.60vw;
+    }
+    /* BARRA DE NAVEGACIÓN ESCONDIDA */
+    /* FUENTES PORTADA V3*/
+    .a {
+        font-size: 6.89vw;
+        line-height: 6.7vw;
+    }
+    .b {
+        font-size: 3.7vw;
+    }
+    .c {
+        font-size: 2.8vw;
+    }
+    a.button,
+    button.button,
+    input.button {
+        font-size: 2.6vw;
+    }
+    .boton {
+        margin: 2.5vh;
+    }
+    .bloque-servicios {
+        -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+        max-width: 50%;
+    }
+    .a-2 {
+        margin-bottom: 8%;
+        font-size: 2.68vw;
+    }
+    .b-2 {
+        font-size: 1.8vw;
+    }
+}
+
+@media screen and (max-width:400px) {
+    /* .prueba {
+        color: peru;
+    } */
+    .portada {
+        padding: 19vh 0 19vh 0;
+    }
+    nav.header-nav ul li>a {
+        font-size: 1.65vw;
+    }
+    /* BARRA DE NAVEGACIÓN ESCONDIDA */
+    /* FUENTES PORTADA V3*/
+    .a {
+        font-size: 7.2vw;
+        line-height: 7vw;
+    }
+    .b {
+        font-size: 4vw;
+    }
+    .c {
+        font-size: 3vw;
+    }
+    .boton {
+        margin: 3vh;
+    }
+    a.button,
+    button.button,
+    input.button {
+        font-size: 2.8vw;
+    }
+    .bloque-servicios {
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+    /* SERVICIOS DETALLADOS */
+    h1.a-2 {
+        font-size: 4vw;
+    }
+    div.b-2 {
+        font-size: 3.5vw;
+    }
+    /* BLOG */
+    .c-2 {
+        font-size: 3.5vw;
+    }
+    .blog-header,
+    .blog-cuerpo {
+        font-size: 3.5vw;
+    }
+    .blog {
+        padding: 3% 12% 3% 12%;
+    }
+    .bloque-blog {
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+    .relative-img {
+        width: 100%;
+        height: 100%;
+    }
+    /* CLIENTES */
+    .cliente-mobile {
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: space-around;
+    }
+    .bloque-cliente {
+        -ms-flex-preferred-size: 35%;
+        flex-basis: 45%;
+        max-width: 45%;
+    }
+    .bloque-cliente-mobile-1 {
+        flex-basis: 43.33333%;
+        max-width: 43.33333%;
+    }
+    .bloque-cliente-mobile-2 {
+        flex-basis: 56.666666667%;
+        max-width: 56.666666667%;
+    }
+    .relative-img-2 {
+        width: 100%;
+        height: 100%;
+    }
+    .c-mobile {
+        font-size: 3.22vw;
+    }
+    /* FAQ */
+    .faq-mobile-1 {
+        font-size: 2.3vw;
+        color: rgb(26, 24, 24);
+    }
+    .g1 {
+        margin-bottom: 2vw;
+    }
+    .c-3 {
+        font-size: 3.4vw;
+    }
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        font-size: 2vw;
+    }
+    input[type="text"],
+    input[type="email"] {
+        height: 4.5vw;
+    }
+    /* FOOTER */
+    .e {
+        font-size: 2.2vw;
+    }
+    footer>section>div>div>ul>li>a {
+        font-size: 1.6vw;
+    }
+    div.d {
+        font-size: 1.5vw;
+    }
+}

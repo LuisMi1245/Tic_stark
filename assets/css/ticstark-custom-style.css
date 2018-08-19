@@ -14,11 +14,31 @@
     text-transform: uppercase;
 }
 
+.a-1-blog{
+    font-weight: 400;
+}
+.a-blog,.a-1-blog{
+
+    /* Style for "TICSTARK" */
+    color: #ffffff;
+    font-size: 6.29vw;
+    letter-spacing: .275vw;
+    line-height: 8.74vw;
+    text-transform: uppercase;
+}
 .b {
     /* Style for "NUESTRA PRIORIDAD */
     color: #ffffff;
     font-size: 2vw;
     font-weight: 300;
+    letter-spacing: 1vw;
+    text-transform: uppercase;
+}
+.b-blog{
+    /* Style for "BLOG*/
+    color: #ffffff;
+    font-size: 2vw;
+    font-weight: 200;
     letter-spacing: 1vw;
     text-transform: uppercase;
 }
@@ -50,7 +70,7 @@
 ul.f>* {
     /* Style for "info@ticst" */
     color: #d8d9d9;
-    font-family: "Segoe UI";
+    font-family: "segoe-regular-new";
     font-size: 1.11vw;
     font-weight: 400;
     line-height: 2.22vw;
@@ -172,10 +192,12 @@ ul.all-color-n>li>* {
     width: 10vw;
     height: 10vw;
 }
+
 .img-relative-3 {
     width: 35vw;
     height: 45vw;
 }
+
 /* DESKTOP FIRST
 Max width ---> +1366px;
 Puntos Quiebre para Desktop first:

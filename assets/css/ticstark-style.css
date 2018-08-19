@@ -45,15 +45,10 @@ iframe,
 canvas,
 svg,
 picture {
-    max-width: 100%;
     width: 100%;
-    height: auto;
-}
-
-.img-full-custom {
-    width: 14.8vw;
-    height: 7.4vw;
-    padding: 20%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .border>* {
@@ -152,19 +147,22 @@ ul.lista-circle>li {
 
 /* REGLAS PARA HEADER */
 
-
-.header-fix{
+.header-fix {
     position: fixed;
 }
 
 .header-back-change {
     background-color: #040610;
+    -webkit-transition: all .6s;
     transition: all .6s;
 }
+
 .header-back {
     background-color: transparent;
+    -webkit-transition: all .6s;
     transition: all .6s;
 }
+
 figure.header-logo {
     padding: 1.5vw 0vw 1.5vw 1.5vw;
 }
@@ -213,7 +211,11 @@ nav.header-nav ul li>a::before {
     top: 0.07vw;
 }
 
-nav.header-nav ul li:first-child>a::before {
+nav.header-nav.h-home ul li:nth-child(1)>a::before {
+    opacity: 1;
+}
+
+nav.header-nav.h-blog ul li:nth-child(3)>a::before {
     opacity: 1;
 }
 
@@ -264,6 +266,34 @@ nav.header-nav li>a:visited {
 }
 
 .f-montserrat-sb {
+    font-family: 'montserrat-semibold';
+}
+
+.f-all-segoe-r>* {
+    font-family: 'segoe-regular';
+}
+
+.f-all-segoe-rn>* {
+    font-family: 'segoe-regular-new';
+}
+
+.f-all-segoe-b>* {
+    font-family: 'segoe-bold';
+}
+
+.f-all-segoe-bn>* {
+    font-family: 'segoe-bold-new';
+}
+
+.f-all-segoe-sb>* {
+    font-family: 'segoe-semibold';
+}
+
+.f-all-montserrat-b>* {
+    font-family: 'montserrat-bold';
+}
+
+.f-all-montserrat-sb>* {
     font-family: 'montserrat-semibold';
 }
 
@@ -565,6 +595,41 @@ input.button:hover {
     transition: box-shadow .4s, -webkit-box-shadow .4s;
 }
 
+.boton-arrow {
+    position: relative;
+    top: 10vw;
+    width: 2vw;
+    height: auto;
+    animation: boton-arrow 2s infinite;
+}
+.boton-arrow:hover{
+    cursor: pointer;
+}
+@keyframes boton-arrow {
+    0% {
+        top: 10vw
+    }
+    50% {
+        top: 10.3vw
+    }
+    75% {
+        top: 10vw
+    }
+    80% {
+        top: 11vw;
+    }
+    90%{
+        top: 10vw;
+    }
+    95%{
+        top: 10.2vw;
+    }
+    100%{
+        top: 10vw;
+    }
+} 
+
+
 /* CAJAS DE ENTRADA */
 
 input[type="text"],
@@ -586,60 +651,37 @@ input[type="email"] {
     height: 2.96vw;
 }
 
-/* EFECTO CAJA (PROPIEDADES INICIALES) */
+/* EFECTO CAJA */
 
 .efecto-caja {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
     -webkit-transition: all .4s;
     transition: all .4s;
-    padding-top: 10%;
-    padding-bottom: 10%;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
 }
 
-.efecto-caja>figure>div>span.a-1 {
-    color: #ffffff;
-    font-size: 2.07vw;
-    font-weight: 400;
-    letter-spacing: 0.37vw;
-    text-transform: uppercase;
-    -webkit-transition: .4s;
-    transition: .4s;
-}
-
-.efecto-caja>figure>div>span.b-1 {
-    /* Style for "SERVICIOS-2" */
-    color: #ffffff;
-    font-size: 1.15vw;
-    font-weight: 400;
-    letter-spacing: 0.3vw;
-    text-transform: uppercase;
+.efecto-caja>.img-full {
+    z-index: 0;
+    width: 100%;
+    height: 100%;
     -webkit-transition: all .4s;
     transition: all .4s;
 }
 
-/* EFECTO GENERAL */
-
-.efecto-caja:hover>figure>div>span.a-1 {
-    font-size: 2.15vw;
-    -webkit-transition: font-size .4s;
-    transition: font-size .4s;
-}
-
-.efecto-caja:hover>figure>div>span.b-1 {
-    font-size: 1.22vw;
-    -webkit-transition: font-size .4s;
-    transition: font-size .4s;
-}
-
-.efecto-caja:hover {
+.efecto-caja:hover>.img-full {
     cursor: pointer;
-    background-color: #900b2f;
-    -webkit-transition: background-color .4s;
-    transition: background-color .4s;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-filter: brightness(.8);
+            filter: brightness(.8);
 }
 
-/* BLOG EFECTOS Y PROPIEDADES */
-
-/* CONTENEDOR */
+/* CONTENEDOR EFECTOS */
 
 .relative-container {
     position: relative;
@@ -711,8 +753,7 @@ input[type="email"] {
 .blog-header,
 .blog-cuerpo {
     color: #e7e7e7;
-    font-family: 'segoe-bold';
-    text-transform: uppercase;
+    font-family: 'segoe-regular-new';
     font-size: 1.04vw;
 }
 

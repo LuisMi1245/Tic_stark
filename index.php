@@ -11,9 +11,6 @@ ORDEN EN LA DEFINICIÓN DE ATRIBUTOS:
     - src, for, type, href, value.
     - title, alt.
     - aria-*, role.
-
-d-flex: Permite la flexibilidad de las cajas
-con respecto a su padre (container).
 -->
 
 <!DOCTYPE html>
@@ -33,11 +30,7 @@ con respecto a su padre (container).
     <link href="assets/css/video-header.css" rel="stylesheet">
     <link href="assets/css/font.css" rel="stylesheet">
     <link href="assets/css/ticstark-custom-style.css" rel="stylesheet">
-    <link href="assets/css/desktop-1024.css" rel="stylesheet">
-    <link href="assets/css/mobile-768.css" rel="stylesheet">
-    <link href="assets/css/mobile-600.css" rel="stylesheet">
-    <link href="assets/css/mobile-500.css" rel="stylesheet">
-    <link href="assets/css/mobile-400.css" rel="stylesheet">
+    <link href="assets/css/responsive/mediaqueries.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/solid.css" integrity="sha384-TbilV5Lbhlwdyc4RuIV/JhD8NR+BfMrvz4BL5QFa2we1hQu6wvREr3v6XSRfCTRp"
         crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/fontawesome.css" integrity="sha384-ozJwkrqb90Oa3ZNb+yKFW2lToAWYdTiF1vt8JiH5ptTGHTGcN7qdoR1F95e0kYyG"
@@ -45,109 +38,83 @@ con respecto a su padre (container).
 </head>
 
 <body>
-        <!-- HEADER -->
-        <header class="container-flex header-fix nowrap-align-center header-mobile" id="HEADER">
-            <!-- LOGOTIPO -->
-            <div class="col-item-flex-2">
-                <figure class="header-logo">
-                    <a href="#PORTADA">
-                        <img class="img-full" src="assets/img/svg-images/logo-white.svg">
-                    </a>
-                </figure>
-            </div>
+    <!-- HEADER -->
+    <header class="container-flex header-fix nowrap-align-center header-mobile" id="HEADER">
+        <!-- LOGOTIPO -->
+        <div class="col-item-flex-2">
+            <figure class="header-logo">
+                <a href="#PORTADA">
+                    <img class="img-full" src="assets/img/svg-images/logo-white.svg">
+                </a>
+            </figure>
+        </div>
 
-            <!-- BARRA DE NAVEGACIÓN -->
-            <div class="col-item-flex-8">
-                <nav class="header-nav">
-                    <ul>
-                        <li>
-                            <a href="#PORTADA">HOME</a>
-                        </li>
-                        <li>
-                            <a href="#SERV">QUÉ HACEMOS</a>
-                        </li>
-                        <li>
-                            <a href="#">EQUIPO</a>
-                        </li>
-                        <li>
-                            <a href="sketch.html">BLOG</a>
-                        </li>
-                        <li>
-                            <a href="#FAQ">CONTACTENOS</a>
-                        </li>
+        <!-- BARRA DE NAVEGACIÓN -->
+        <div class="col-item-flex-8">
+            <nav class="header-nav h-home">
+                <ul>
+                    <li>
+                        <a href="index.php">HOME</a>
+                    </li>
+                    <li>
+                        <a href="#SERV">QUÉ HACEMOS</a>
+                    </li>
+                    <li>
+                        <a href="blog.php">BLOG</a>
+                    </li>
+                    <li>
+                        <a href="#FAQ">CONTACTENOS</a>
+                    </li>
 
-                    </ul>
-                </nav>
-            </div>
-        </header>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-        <!-- PORTADA (PERMITE CAMBIOS EN ELEMENTOS CON FLEX) -->
-        <section class="portada container-flex background-img-ticstark" id="PORTADA">
-            <!-- <video playsinline autoplay muted loop poster="pulina.jpg" id="video_back">
+    <!-- PORTADA (PERMITE CAMBIOS EN ELEMENTOS CON FLEX) -->
+    <section class="portada container-flex background-img-ticstark" id="PORTADA">
+        <!-- <video playsinline autoplay muted loop poster="pulina.jpg" id="video_back">
             <source src="assets/video_header/polina.webm" type="video/webm">
             <source src="pulina.mp4" type="video/mp4">
         </video> -->
-            <div class="col-item-auto">
-                <figure class="container-flex flexflow-c-ol nowrap-align-center all-color-ticstark-white">
-                    <div class="col-item-auto">
-                        <h1 class="f-segoe-sb a prueba">CREATIVIDAD</h1>
-                    </div>
-                    <div>
-                        <h2 class="f-segoe-sl-webkit b">NUESTRA PRIORIDAD</h1>
-                    </div>
-                    <div>
-                        <h2 class="f-segoe-r c">MARCA / DISEÑO / DESARROLLO</h2>
-                    </div>
-                    <div class="boton">
-                        <a class="button f-segoe-rn" href="sketch.html">LEER MÁS</a>
-                    </div>
-                </figure>
-            </div>
-        </section>
+        <div class="col-item-auto">
+            <figure class="container-flex flexflow-c-ol nowrap-align-center all-color-ticstark-white">
+                <div class="col-item-auto">
+                    <h1 class="f-segoe-sb a prueba">CREATIVIDAD</h1>
+                </div>
+                <div>
+                    <h2 class="f-segoe-sl-webkit b">NUESTRA PRIORIDAD</h1>
+                </div>
+                <div>
+                    <h2 class="f-segoe-r c">MARCA - DISEÑO - DESARROLLO</h2>
+                </div>
+                <div class="boton">
+                    <a class="button f-segoe-rn" href="sketch.html">LEER MÁS</a>
+                </div>
+            </figure>
+        </div>
+    </section>
 
     <!-- SERVICIOS DE TICSTARK -->
     <section class="container-flex flexflow-r-pl">
-        <div class="efecto-caja bloque-servicios col-item-flex-3 background-color-ts-5">
-            <figure class="container-flex flex-grow-1 flexflow-c-ol nowrap-align-center">
-                <div class="col-item-auto all-color-ticstark-white">
-                    <span class="f-segoe-r b-1" href="#">POSICIONAMOS</span>
-                </div>
-                <div class="col-item-auto all-color-ticstark-white">
-                    <span class="f-segoe-r a-1" href="#">TU MARCA</span>
-                </div>
+        <div class="bloque-servicios col-item-flex-3">
+            <figure class="efecto-caja">
+                <img class="img-full" src="assets/img/compreso/Page1.png" alt="Servicios de ticstark">
             </figure>
         </div>
-
-        <div class="efecto-caja bloque-servicios col-item-flex-3 background-color-ts-5-1">
-            <figure class="container-flex flex-grow-1 flexflow-c-ol nowrap-align-center">
-                <div class="col-item-auto all-color-ticstark-white">
-                    <span class="f-segoe-r a-1" href="#">CREAMOS</span>
-                </div>
-                <div class="col-item-auto all-color-ticstark-white">
-                    <span class="f-segoe-r b-1" href="#">COMUNIDADES</span>
-                </div>
+        <div class="bloque-servicios col-item-flex-3">
+            <figure class="efecto-caja">
+                <img class="img-full" src="assets/img/compreso/Page2.png" alt="Servicios de ticstark">
             </figure>
         </div>
-
-        <div class="efecto-caja bloque-servicios col-item-flex-3 background-color-ts-5-2">
-            <figure class="container-flex flex-grow-1 flexflow-c-ol nowrap-align-center">
-                <div class="col-item-auto all-color-ticstark-white">
-                    <span class="f-segoe-r b-1" href="#">GENERAMOS</span>
-                </div>
-                <div class="col-item-auto all-color-ticstark-white">
-                    <span class="f-segoe-r a-1" href="#">LEADS</span>
-                </div>
+        <div class="bloque-servicios col-item-flex-3">
+            <figure class="efecto-caja">
+                <img class="img-full" src="assets/img/compreso/Page3.png" alt="Servicios de ticstark">
             </figure>
         </div>
-
-        <div class="efecto-caja bloque-servicios col-item-flex-3 background-color-ts-5-3">
-            <figure class="container-flex flex-grow-1 flexflow-c-ol nowrap-align-center">
-                <div class="col-item-auto all-color-ticstark-white">
-                    <span class="f-segoe-r a-1" href="#">DISEÑAMOS</span>
-                </div>
-                <div class="col-item-auto all-color-ticstark-white">
-                    <span class="f-segoe-r b-1" href="#">ESTRATEGIAS DIGITALES</span>
-                </div>
+        <div class="bloque-servicios col-item-flex-3">
+            <figure class="efecto-caja">
+                <img class="img-full" src="assets/img/compreso/Page4.png" alt="Servicios de ticstark">
             </figure>
         </div>
     </section>
@@ -200,17 +167,21 @@ con respecto a su padre (container).
                 </div>
                 <div class="col-item-auto">
                     <p class="f-segoe-r b-2">Creamos contenido para las comunidades digitales, en Facebook e Instagram, que se identifiquen con tu
-                        marca.</p>
+                        marca.
+                    </p>
                 </div>
             </div>
         </article>
     </section>
+
     <!-- BLOG (PERMITE CAMBIOS EN ELEMENTOS CON FLEX) -->
     <section class="background-color-ts-8 blog" id="BLOG">
         <article class="text-container">
             <h2 class="c-2 f-segoe-bn color-ticstark-black">BLOG</h2>
         </article>
+        
         <div class="container-flex flexflow-r-pl fitems-spacearound">
+            
             <article class="col-item-custom-2 bloque-blog">
                 <div class="relative-container">
                     <div class="relative-categoria">
@@ -328,11 +299,6 @@ con respecto a su padre (container).
                                         <img class="img-full" src="assets/img/svg-images/instagram.svg" alt="logo instagram">
                                     </a>
                                 </div>
-                                <!-- <div class="col-item-flex-2 subicons">
-                                        <a href="https://wa.me/573016065919" target="_blank">
-                                            <img class="img-full" src="assets/img/svg-images/whatsapp.svg" alt="logo whatsapp">
-                                        </a>
-                                    </div> -->
                             </div>
                         </li>
                     </ul>
@@ -340,7 +306,7 @@ con respecto a su padre (container).
             </div>
 
             <div class="col-item-flex-8 background-color-ts-7 sr4">
-                <h2 class="c-3 f-segoe-sl-webkit color-ticstark-6">ENVÍANOS TU MENSAJE</h2>
+                <h2 class="c-3 f-segoe-rn color-ticstark-6">ENVÍANOS TU MENSAJE</h2>
                 <form class="container-flex flexflow-c-ol margin-3">
                     <!-- NOMBRES / EMAIL -->
                     <div class="col-item-auto">
@@ -442,7 +408,7 @@ con respecto a su padre (container).
             <div class="background-color-ts-9 f-segoe-sb color-ticstark-7 d">COPYRIGHT © 2018 TICSTARK. TODOS LOS DERECHOS RESERVADOS.</div>
         </section>
     </footer>
-</main>
-<script src="js/index.js"></script>
+    <script src="js/index.js"></script>
 </body>
+
 </html>

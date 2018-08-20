@@ -200,3 +200,8 @@ CANCELA EL USO DE ALINEACIONES FLEXBOX */
 }
 
 /* Grillas con CSS Grid Layout */
+
+.container-grid {
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw;
+}

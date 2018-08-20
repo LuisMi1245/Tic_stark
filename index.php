@@ -22,7 +22,7 @@ ORDEN EN LA DEFINICIÓN DE ATRIBUTOS:
     <meta http-equiv="X-UA-Compatible" content="ie=edge, chrome=1">
     <title>Ticstark - Marketing, Social Media y Software</title>
     <meta name="description" content="Impulsamos tu marca y negocio en redes sociales de manera profesional, aplicando estrategias avanzadas de posicionamiento de marca y campañas publicitarias.">
-    <link rel="icon" type="image/vnd.microsoft.icon" href="assets/img/svg-images/favicon.svg" sizes="16x16 24x24 36x36 48x48">
+    <link rel="icon" href="assets/img/svg-images/favicon.svg" sizes="16x16 24x24 36x36 48x48">
     <link href="assets/css/ticstark-reset.css" rel="stylesheet">
     <link href="assets/css/ticstark-grid.css" rel="stylesheet">
     <link href="assets/css/ticstark-layout.css" rel="stylesheet">
@@ -120,9 +120,9 @@ ORDEN EN LA DEFINICIÓN DE ATRIBUTOS:
     </section>
 
     <!-- SERVICIOS DETALLADOS -->
-    <section class="container-flex background-color-ts-6">
+    <section class="container-flex background-color-ts-6" id="SERV">
         <article class="col-item-flex-5">
-            <img class="img-relative-3" src="assets/img/compreso/path-5.png" alt="servicios">
+            <img class="img-relative-3" src="assets/img/compreso/paths/path-5.png" alt="servicios">
         </article>
         <article class="col-item-flex-8">
             <div class="container-flex flexflow-c-ol sr">
@@ -152,13 +152,13 @@ ORDEN EN LA DEFINICIÓN DE ATRIBUTOS:
             </div>
         </article>
         <article class="col-item-flex-5">
-            <img class="img-relative-3" src="assets/img/compreso/path-6.png" alt="servicios">
+            <img class="img-relative-3" src="assets/img/compreso/paths/path-6.png" alt="servicios">
         </article>
     </section>
 
     <section class="container-flex background-color-ts-7">
         <article class="col-item-flex-5">
-            <img class="img-relative-3" src="assets/img/compreso/path-7.png" alt="servicios">
+            <img class="img-relative-3" src="assets/img/compreso/paths/path-7.png" alt="servicios">
         </article>
         <article class="col-item-flex-8">
             <div class="container-flex flexflow-c-ol sr">
@@ -174,70 +174,119 @@ ORDEN EN LA DEFINICIÓN DE ATRIBUTOS:
         </article>
     </section>
 
-    <!-- BLOG (PERMITE CAMBIOS EN ELEMENTOS CON FLEX) -->
-    <section class="background-color-ts-8 blog" id="BLOG">
-        <article class="text-container">
+  <!-- BLOG (PERMITE CAMBIOS EN ELEMENTOS CON FLEX) -->
+  <section class="blog" id="BLOG">
+        <div class="text-container">
             <h2 class="c-2 f-segoe-bn color-ticstark-black">BLOG</h2>
-        </article>
-        
-        <div class="container-flex flexflow-r-pl fitems-spacearound">
-            
-            <article class="col-item-custom-2 bloque-blog">
-                <div class="relative-container">
-                    <div class="relative-categoria">
-                        <span class="blog-header" id="CATEGORIA">Marca Personal</span>
-                    </div>
-                    <img class="relative-img" src="assets/img/compreso/path-2.jpg" alt="imagen del blog">
-                    <div class="relative-categoria-2">
-                        <a href="#PORTADA">
-                            <span class="blog-cuerpo">Ticstark, Marketing digital, Software y más...</span>
-                        </a>
+        </div>
+        <!-- BLOG CONTENIDO -->
+        <div class="container-grid fitems-center">
+
+            <!-- TARJETA # 1 -->
+            <article class="card-container card-level-3">
+                <div class="card-cabeza">
+                    <img src="assets/img/compreso/paths/path-0.jpg">
+                    <div class="categoria">
+                        <span>E-Commerce</span>
                     </div>
                 </div>
-            </article>
-            <article class="col-item-custom-2 bloque-blog">
-                <div class="relative-container">
-                    <div class="relative-categoria">
-                        <span class="blog-header" id="CATEGORIA">Desafia tu mundo</span>
+
+                <div class="card-cuerpo">
+                    <div class="cont-titular">
+                        <h1>¿POR QUÉ APLICAR LA ANALÍTICA WEB EN SU E-COMMERCE?</h1>
                     </div>
-                    <img class="relative-img" src="assets/img/compreso/path-3.jpg" alt="imagen del blog">
-                    <div class="relative-categoria-2">
-                        <a href="#PORTADA">
-                            <span class="blog-cuerpo">¿Cómo triunfar en los negocios y cómo emprender?</span>
-                        </a>
+                    <div class="cont-texto">
+                        <p>Todos los resultados son medibles y la analítica web cumple un papel importante en este hecho. Le
+                            contamos qué es y cuáles son las recomendaciones para usar estas métricas en…</p>
                     </div>
-                </div>
-            </article>
-            <article class="col-item-custom-2 bloque-blog">
-                <div class="relative-container">
-                    <div class="relative-categoria">
-                        <span class="blog-header" id="CATEGORIA">Desarrolla</span>
+                    <div class="cont-button">
+                        <a href="#">LEER MÁS</a>
                     </div>
-                    <img class="relative-img" src="assets/img/compreso/path-4.jpg" alt="imagen del blog">
-                    <div class="relative-categoria-2">
-                        <a href="#PORTADA">
-                            <span class="blog-cuerpo">Uso del software en la industria moderna...</span>
-                        </a>
+                    <hr>
+                    <div class="cont-fecha">
+                        <span>18, Agosto, 2018</span>
                     </div>
                 </div>
             </article>
 
-            <article class="col-item-custom-2 bloque-blog">
-                <div class="relative-container">
-                    <div class="relative-categoria">
-                        <span class="blog-header" id="CATEGORIA">Disfruta</span>
+            <!-- TARJETA # 1 -->
+            <article class="card-container card-level-3">
+                <div class="card-cabeza">
+                    <img src="assets/img/compreso/paths/path-0-1.jpg">
+                    <div class="categoria">
+                        <span>Fechas</span>
                     </div>
-                    <img class="relative-img" src="assets/img/compreso/path-1.png" alt="imagen del blog">
-                    <div class="relative-categoria-2">
-                        <a href="#PORTADA">
-                            <span class="blog-cuerpo">Uso del software en la industria moderna...</span>
-                        </a>
+                </div>
+
+                <div class="card-cuerpo fitems-start">
+                    <div class="cont-titular">
+                        <h1>DÍA DE LA MUJER: ¿CUÁL ES SU IMPACTO EN EL MUNDO DIGITAL?</h1>
+                    </div>
+                    <div class="cont-texto">
+                        <p>Este 8 de marzo se conmemora en todo el mundo el Día Internacional de la Mujer, una fecha que celebra su valentía, coraje y papel en la sociedad. En el que cumplen como uno de lo...</div>
+                    <div class="cont-button">
+                        <a href="#">LEER MÁS</a>
+                    </div>
+                    <hr>
+                    <div class="cont-fecha">
+                        <span>19, Agosto, 2018</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- TARJETA # 1 -->
+            <article class="card-container card-level-3">
+                <div class="card-cabeza">
+                    <img src="assets/img/compreso/paths/path-0-2.jpg">
+                    <div class="categoria">
+                        <span>Tecnología</span>
+                    </div>
+                </div>
+
+                <div class="card-cuerpo">
+                    <div class="cont-titular">
+                        <h1>Plataformas digitales: últimas innovaciones</h1>
+                    </div>
+                    <div class="cont-texto">
+                        <p>La implementación de nuevas funcionalidades, el desarrollo de nuevos servicios de mensajería instantánea y las nuevas métricas para los anunciantes, son algunas de las innovaciones con las que inician el nuevo...</p>
+                    </div>
+                    <div class="cont-button">
+                        <a href="#">LEER MÁS</a>
+                    </div>
+                    <hr>
+                    <div class="cont-fecha">
+                        <span>14, Agosto, 2018</span>
+                    </div>
+                </div>
+            </article>
+            <!-- TARJETA # 1 -->
+            <article class="card-container card-level-3">
+                <div class="card-cabeza">
+                    <img src="assets/img/compreso/paths/path-0-3.jpg">
+                    <div class="categoria">
+                        <span>Redes Sociales</span>
+                    </div>
+                </div>
+
+                <div class="card-cuerpo">
+                    <div class="cont-titular">
+                        <h1>No sobredimensione el nuevo algoritmo de Facebook y reafirme su estrategia digital</h1>
+                    </div>
+                    <div class="cont-texto">
+                        <p>Con la intensión de regresar a sus orígenes, Facebook decidió volver a darle prioridad a la cercanía entre las personas y a la construcción de relaciones. Aunque romántica la idea,…</p>
+                    </div>
+                    <div class="cont-button">
+                        <a href="#">LEER MÁS</a>
+                    </div>
+                    <hr>
+                    <div class="cont-fecha">
+                        <span>18, Agosto, 2018</span>
                     </div>
                 </div>
             </article>
         </div>
     </section>
-
+    
     <!-- PARTNERS/CLIENTES (PERMITE CAMBIOS EN ELEMENTOS CON FLEX) -->
     <section class="background-color-ts-9" id="CUSTOMER">
         <div class=" container-flex nowrap-align-center">

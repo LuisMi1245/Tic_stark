@@ -15,13 +15,13 @@
 }
 
 .a-1-blog{
-    font-weight: 400;
+    font-weight: 800;
 }
 .a-blog,.a-1-blog{
 
     /* Style for "TICSTARK" */
     color: #ffffff;
-    font-size: 6.29vw;
+    font-size: 7.29vw;
     letter-spacing: .275vw;
     line-height: 8.74vw;
     text-transform: uppercase;
@@ -37,7 +37,7 @@
 .b-blog{
     /* Style for "BLOG*/
     color: #ffffff;
-    font-size: 2vw;
+    font-size: 2.5vw;
     font-weight: 200;
     letter-spacing: 1vw;
     text-transform: uppercase;

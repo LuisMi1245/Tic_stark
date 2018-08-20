@@ -32,6 +32,36 @@
     .b-2 {
         font-size: 1.5vw;
     }
+    .card-container {
+        box-shadow: 0vw 0.39vw 1.52vw rgba(0, 0, 0, 0.3);
+        border-radius: 0.57vw;
+    }
+    .categoria {
+        padding: .4vw 1vw;
+    }
+    .categoria span {
+        font-size: 1.15vw;
+        font-weight: 500;
+    }
+    /* CONTENT */
+    .cont-titular h1 {
+        font-size: 1.15vw;
+        margin: 0.15vw 0vw 0.73vw 0vw;
+    }
+    .cont-texto p {
+        font-size: .94vw;
+    }
+    .cont-button {
+        margin: 1.1vw 0vw 0.88vw 0vw;
+    }
+    .cont-button a {
+        padding: .4vw 0vw;
+        font-size: 1.15vw;
+        font-weight: 300;
+    }
+    .cont-fecha span {
+        font-size: 1.2vw;
+    }
 }
 
 @media screen and (max-width:800px) and (orientation:portrait) {
@@ -114,6 +144,10 @@
     .b-2 {
         font-size: 1.6vw;
     }
+    .card-container {
+        box-shadow: 0vw 0.59vw 1.72vw rgba(0, 0, 0, 0.3);
+        border-radius: 0.77vw;
+    }
 }
 
 @media screen and (max-width:600px) {
@@ -169,6 +203,15 @@
         width: 38vw;
         height: 38vw;
     }
+    .container-grid {
+        grid-template-columns: repeat(auto-fill, 35%);
+        grid-gap: 1.86vw;
+        padding: 1.96vw;
+    }
+    .card-container {
+        box-shadow: 0vw 0.79vw 1.92vw rgba(0, 0, 0, 0.3);
+        border-radius: 0.97vw;
+    }
 }
 
 @media screen and (max-width:500px) {
@@ -212,6 +255,15 @@
     }
     .b-2 {
         font-size: 1.8vw;
+    }
+    .container-grid {
+        grid-template-columns: repeat(auto-fill, 45%);
+        grid-gap: 2.06vw;
+        padding: 2.16vw;
+    }
+    .card-container {
+        box-shadow: 0vw 0.99vw 2.12vw rgba(0, 0, 0, 0.3);
+        border-radius: 1.17vw;
     }
 }
 
@@ -332,5 +384,14 @@
     }
     div.d {
         font-size: 1.5vw;
+    }
+    .container-grid {
+        grid-template-columns: repeat(auto-fill, 75%);
+        grid-gap: 3.06vw;
+        padding: 3.16vw;
+    }
+    .card-container {
+        box-shadow: 0vw 1.29vw 2.32vw rgba(0, 0, 0, 0.3);
+        border-radius: 1.47vw;
     }
 }

@@ -1,0 +1,177 @@
+<!-- TARJETAS DEL BLOG -->
+
+<body>
+    <!-- BLOG (PERMITE CAMBIOS EN ELEMENTOS CON FLEX) -->
+    <section class="blog" id="BLOG">
+        <div class="text-container">
+            <h2 class="c-2 f-segoe-bn color-ticstark-black">BLOG</h2>
+        </div>
+        <!-- BLOG CONTENIDO -->
+        <div class="container-grid fitems-center">
+
+            <!-- TARJETA # 1 -->
+            <article class="card-container card-level-1">
+                <div class="card-cabeza">
+                    <img src="assets/img/compreso/path-5.png">
+                    <div class="categoria">
+                        <span>E-Commerce</span>
+                    </div>
+                </div>
+
+                <div class="card-cuerpo">
+                    <div class="cont-titular">
+                        <h1>¿POR QUÉ APLICAR LA ANALÍTICA WEB EN SU E-COMMERCE?</h1>
+                    </div>
+                    <div class="cont-texto">
+                        <p>Todos los resultados son medibles y la analítica web cumple un papel importante en este hecho. Le
+                            contamos qué es y cuáles son las recomendaciones para usar estas métricas en…</p>
+                    </div>
+                    <div class="cont-button">
+                        <a href="#">LEER MÁS</a>
+                    </div>
+                    <hr>
+                    <div class="cont-fecha">
+                        <span>18, Agosto, 2018</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- TARJETA # 1 -->
+            <article class="card-container card-level-2">
+                <div class="card-cabeza">
+                    <img src="assets/img/compreso/path-1.png">
+                    <div class="categoria">
+                        <span>E-Commerce</span>
+                    </div>
+                </div>
+
+                <div class="card-cuerpo">
+                    <div class="cont-titular">
+                        <h1>¿POR QUÉ APLICAR LA ANALÍTICA WEB EN SU E-COMMERCE?</h1>
+                    </div>
+                    <div class="cont-texto">
+                        <p>Todos los resultados son medibles y la analítica web cumple un papel importante en este hecho. Le
+                            contamos qué es y cuáles son las recomendaciones para usar estas métricas en…</p>
+                    </div>
+                    <div class="cont-button">
+                        <a href="#">LEER MÁS</a>
+                    </div>
+                    <hr>
+                    <div class="cont-fecha">
+                        <span>18, Agosto, 2018</span>
+                    </div>
+                </div>
+            </article>
+
+
+            <!-- TARJETA # 1 -->
+            <article class="card-container card-level-3">
+                <div class="card-cabeza">
+                    <img src="assets/img/compreso/path-0.jpg">
+                    <div class="categoria">
+                        <span>E-Commerce</span>
+                    </div>
+                </div>
+
+                <div class="card-cuerpo">
+                    <div class="cont-titular">
+                        <h1>¿POR QUÉ APLICAR LA ANALÍTICA WEB EN SU E-COMMERCE?</h1>
+                    </div>
+                    <div class="cont-texto">
+                        <p>Todos los resultados son medibles y la analítica web cumple un papel importante en este hecho. Le
+                            contamos qué es y cuáles son las recomendaciones para usar estas métricas en…</p>
+                    </div>
+                    <div class="cont-button">
+                        <a href="#">LEER MÁS</a>
+                    </div>
+                    <hr>
+                    <div class="cont-fecha">
+                        <span>18, Agosto, 2018</span>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+</body>
+
+
+<!-- VIEJOS CONTENEDORES -->
+/* 
+CONTENEDOR EFECTOS
+.relative-container {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+
+.relative-container:hover>.relative-img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-filter: brightness(.3);
+    filter: brightness(.25);
+}
+
+.relative-container:hover>.relative-categoria>*,
+.relative-container:hover>.relative-categoria-2>* {
+    color: #ffffff;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+}
+
+.relative-container:hover>.relative-categoria,
+.relative-container:hover>.relative-categoria-2 {
+    background-color: #d90e45;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+}
+
+IMAGEN 
+
+.relative-img {
+    z-index: 0;
+    width: 28vw;
+    height: 28vw;
+    -webkit-filter: opacity(.9);
+    filter: opacity(.9);
+    -webkit-filter: brightness(.6);
+    filter: brightness(.6);
+    -webkit-transition: all .4s;
+    transition: all .4s;
+}
+
+CUADROS CONTENEDOR 
+
+.relative-categoria,
+.relative-categoria-2 {
+    z-index: 1;
+    position: absolute;
+    background-color: #bb0e3cd7;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+}
+
+.relative-categoria {
+    padding: 2%;
+    margin: 5%;
+}
+
+.relative-categoria-2 {
+    bottom: 0vw;
+    padding: 4%;
+}
+
+ CUADROS TEXTO
+
+.blog-header,
+.blog-cuerpo {
+    color: #e7e7e7;
+    font-family: 'segoe-regular-new';
+    font-size: 1.04vw;
+}
+
+.blog-header {
+    text-shadow: 0 .22vw 0.44vw rgba(0, 0, 0, 0.16);
+} */

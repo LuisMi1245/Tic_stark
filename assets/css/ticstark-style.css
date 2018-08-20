@@ -709,15 +709,19 @@ input[type="email"] {
 
 /* TARJETAS DEL BLOG */
 
+/* CARDS DEL HOME */
+
 .blog {
     background: #f2f2f2;
 }
 
-div.container-grid {
+div.container-grid.page-home {
     grid-template-columns: repeat(auto-fill, 23.5%);
     grid-gap: 1.66vw;
     padding: 1.46vw;
 }
+
+/* CARDS DEL HOME */
 
 .card-container {
     -webkit-box-shadow: 0vw 0.59vw 1.32vw rgba(0, 0, 0, 0.3);
@@ -730,8 +734,22 @@ div.container-grid {
 
 .card-container img {
     max-width: 100%;
-    max-height: auto;
+    /* max-height: 100%; */
+    width: 100%;
     z-index: 0;
+}
+
+.card-level-3>div.card-cabeza>div.imagen>img {
+    height: 13.54vw;
+}
+
+.card-container:hover {
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+    -webkit-box-shadow: 0vw 1.83vw 2.56vw rgba(0, 0, 0, 0.3);
+    box-shadow: 0vw 1.83vw 2.56vw rgba(0, 0, 0, 0.3);
+    -webkit-transition: all .3s;
+    transition: all .3s;
 }
 
 .card-level-1 {
@@ -746,22 +764,12 @@ div.container-grid {
     grid-row-end: span 1;
 }
 
-.card-cuerpo {
-    padding: 1.1vw;
-    position: relative;
-}
-
-.card-container:hover {
-    -webkit-transform: scale(1.03);
-    transform: scale(1.03);
-    -webkit-box-shadow: 0vw 1.83vw 2.56vw rgba(0, 0, 0, 0.3);
-    box-shadow: 0vw 1.83vw 2.56vw rgba(0, 0, 0, 0.3);
-    -webkit-transition: all .3s;
-    transition: all .3s;
-}
-
 .card-cabeza {
     position: relative;
+}
+
+.card-cuerpo {
+    padding: 1.1vw;
 }
 
 .categoria {
@@ -770,7 +778,7 @@ div.container-grid {
     background: linear-gradient(to left, #FF4174, #ff376c);
     display: inline-block;
     position: absolute;
-    bottom: 0.29vw;
+    bottom: 0.4vw;
     right: 0vw;
 }
 
@@ -825,6 +833,45 @@ div.container-grid {
 
 .cont-fecha {
     text-align: center;
+}
+
+/*Modificando cajas de tarjetas*/
+
+section.container-grid.page-blog {
+    grid-template-columns: 75% 25%;
+}
+
+.container-grid.hijo-1 {
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 10px;
+}
+
+.hijo-2 {
+    /* background-color: green;
+    // editar */
+}
+
+.card-container.card-level-1 {
+    grid-template-rows: 60% 30%;
+}
+
+.card-container.card-level-2 {
+    grid-template-rows: 50% 50%;
+}
+
+.card-container.card-level-3 {
+    grid-template-rows: 40% 60%;
+}
+
+.card-container.card-level-1,
+.card-container.card-level-2,
+.card-container.card-level-3 {
+    display: grid;
+}
+
+.card-container>.card-cabeza,
+.card-container>.card-cuerpo {
+    grid-template-rows: 90% 10%;
 }
 
 /* TARJETAS DEL BLOG FIN*/

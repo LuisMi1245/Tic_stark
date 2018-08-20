@@ -203,5 +203,5 @@ CANCELA EL USO DE ALINEACIONES FLEXBOX */
 
 .container-grid {
     display: grid;
-    grid-template-columns: 20vw 20vw 20vw;
 }
+/* A los hijos del container grid se les puede agregar display grid para subdividirlos */

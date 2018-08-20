@@ -78,181 +78,242 @@
         </div>
     </section>
 
+
     <!-- BLOG -->
-    <style>
-        .container-grid {
-            grid-template-columns: repeat(3, 24%);
-        }
-    </style>
     <section class="blog" id="BLOG">
         <div class="text-container">
-            <!-- <h2 class="c-2 t-center f-segoe-s color-ticstark-black">ÚLTIMAS ENTRADAS</h2> -->
+            <h2 class="c-2 f-segoe-bn color-ticstark-black">BLOG</h2>
         </div>
 
-<!-- BLOG CONTENIDO -->
-<div class="container-grid blog fitems-start">
+        <!-- BLOG CONTENIDO -->
+        <section class="container-grid page-blog">
+            <section class="container-grid hijo-1 fitems-center">
 
-<!-- TARJETA #1 -->
-<article class="card-container card-level-1">
-<div class="card-cabeza">
-<img src="assets/img/compreso/paths/path-0-5.jpg">
-<div class="categoria">
-<span>Estrategias</span>
-</div>
-</div>
+                <!-- TARJETA #2 -->
+                <article class="card-container card-level-1">
+                    <div class="card-cabeza">
+                        <div class="imagen">
+                            <img src="assets/img/compreso/paths/path-0-5.jpg">
+                        </div>
+                        <div class="categoria">
+                            <span>E-Commerce</span>
+                        </div>
+                    </div>
 
-<div class="card-cuerpo">
-<div class="cont-titular">
-<h1>Claves para aumentar el tráfico orgánico en su estrategia de contenidos.</h1>
-</div>
-<div class="cont-texto">
-<p>Aunque siempre hemos hecho hincapié en que la creación de contenidos innovadores y de calidad, son básicamente la clave del éxito en una estrategia de content marketing. Debe saber que, además de…</div>
-<div class="cont-button">
-<a href="#">LEER MÁS</a>
-</div>
-<hr>
-<div class="cont-fecha">
-<span>18, Agosto, 2018</span>
-</div>
-</div>
-</article>
-
-<!-- TARJETA #1 -->
-<article class="card-container card-level-2">
-<div class="card-cabeza">
-<img src="assets/img/compreso/paths/path-0-6.jpg">
-<div class="categoria">
-<span>Marketing</span>
-</div>
-</div>
-
-<div class="card-cuerpo">
-<div class="cont-titular">
-<h1>AUMENTE EL NÚMERO DE LEADS EN SU EMPRESA CON CONTENIDOS DE VALOR.</h1>
-</div>
-<div class="cont-texto">
-<p>El contenido nos diferencia de la competencia y nos ayuda a tener un posicionamiento web efectivo.
-Como agencia digital lo sabemos y se lo demostramos a nuestros clientes. Actualmente, las…</p>
-</div>
-<div class="cont-button">
-<a href="#">LEER MÁS</a>
-</div>
-<hr>
-<div class="cont-fecha">
-<span>18, Agosto, 2018</span>
-</div>
-</div>
-</article>
-
-<!-- TARJETA #1 -->
-<article class="card-container card-level-3">
-<div class="card-cabeza">
-<img src="assets/img/compreso/paths/path-0-4.jpg">
-<div class="categoria">
-<span>Tecnología</span>
-</div>
-</div>
-
-<div class="card-cuerpo">
-<div class="cont-titular">
-<h1>Twitter, la red social que difunde mayor número de noticias falsas.</h1>
-</div>
-<div class="cont-texto">
-<p>La propagación de contenidos e información falsa a través de redes sociales es una tendencia que
-está en aumento y cada día está generando mayores impactos en la toma de...</p>
-</div>
-<div class="cont-button">
-<a href="#">LEER MÁS</a>
-</div>
-<hr>
-<div class="cont-fecha">
-<span>18, Agosto, 2018</span>
-</div>
-</div>
-</article>
-
-<!-- TARJETA #1 -->
-<article class="card-container card-level-1">
-<div class="card-cabeza">
-<img src="assets/img/compreso/paths/path-0-5.jpg">
-<div class="categoria">
-<span>Estrategias</span>
-</div>
-</div>
-
-<div class="card-cuerpo">
-<div class="cont-titular">
-<h1>B2B Content Marketing: potenciando la competencia</h1>
-</div>
-<div class="cont-texto">
-<p>Las exigencias de las audiencias fervientes y ávidas de conocimiento han obligado a las empresas
-a robustecer y reconsiderar su oferta de valor frente a temas como la elaboración y…</p>
-</div>
-<div class="cont-button">
-<a href="#">LEER MÁS</a>
-</div>
-<hr>
-<div class="cont-fecha">
-<span>18, Agosto, 2018</span>
-</div>
-</div>
-</article>
-
-<!-- TARJETA #1 -->
-<article class="card-container card-level-2">
-<div class="card-cabeza">
-<img src="assets/img/compreso/paths/path-1.png">
-<div class="categoria">
-<span>E-Commerce</span>
-</div>
-</div>
-
-<div class="card-cuerpo">
-<div class="cont-titular">
-<h1>¿POR QUÉ APLICAR LA ANALÍTICA WEB EN SU E-COMMERCE?</h1>
-</div>
-<div class="cont-texto">
-<p>Todos los resultados son medibles y la analítica web cumple un papel importante en este hecho. Le
-contamos qué es y cuáles son las recomendaciones para usar estas métricas en…</p>
-</div>
-<div class="cont-button">
-<a href="#">LEER MÁS</a>
-</div>
-<hr>
-<div class="cont-fecha">
-<span>18, Agosto, 2018</span>
-</div>
-</div>
-</article>
+                    <div class="card-cuerpo">
+                        <div class="main-content">
+                            <div class="cont-titular">
+                                <h1>¿POR QUÉ APLICAR LA ANALÍTICA WEB EN SU E-COMMERCE COMO ESTRATEGIA PRINCIPAL?</h1>
+                            </div>
+                            <div class="cont-texto">
+                                <p>Todos los resultados son medibles y la analítica web cumple un papel importante en este hecho.
+                                    Le contamos qué es y cuáles son las recomendaciones para usar estas métricas en todo
+                                    y cualquiera…</p>
+                            </div>
+                        </div>
+                        <div class="main-content">
+                            <div class="cont-button">
+                                <a href="#">LEER MÁS</a>
+                            </div>
+                            <div class="cont-fecha">
+                                <hr>
+                                <span>18, Agosto, 2018</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
 
 
-<!-- TARJETA #1 -->
-<article class="card-container card-level-3">
-<div class="card-cabeza">
-<img src="assets/img/compreso/paths/path-0-1.jpg">
-<div class="categoria">
-<span>Fechas</span>
-</div>
-</div>
+                <!-- TARJETA #2 -->
+                <article class="card-container card-level-2">
+                    <div class="card-cabeza">
+                        <div class="imagen">
+                            <img src="assets/img/compreso/paths/path-0-6.jpg">
+                        </div>
+                        <div class="categoria">
+                            <span>E-Commerce</span>
+                        </div>
+                    </div>
 
-<div class="card-cuerpo">
-<div class="cont-titular">
-<h1>DÍA DE LA MUJER: ¿CUÁL ES SU IMPACTO EN EL MUNDO DIGITAL?</h1>
-</div>
-<div class="cont-texto">
-<p>Este 8 de marzo se conmemora en todo el mundo el Día Internacional de la Mujer, una fecha que celebra
-su valentía, coraje y papel en la sociedad. En el que cumplen como uno de lo...</div>
-<div class="cont-button">
-<a href="#">LEER MÁS</a>
-</div>
-<hr>
-<div class="cont-fecha">
-<span>19, Agosto, 2018</span>
-</div>
-</div>
-</article>
-</div>
-</section>
+                    <div class="card-cuerpo">
+                        <div class="main-content">
+                            <div class="cont-titular">
+                                <h1>¿POR QUÉ APLICAR LA ANALÍTICA WEB EN SU E-COMMERCE COMO ESTRATEGIA PRINCIPAL?</h1>
+                            </div>
+                            <div class="cont-texto">
+                                <p>Todos los resultados son medibles y la analítica web cumple un papel importante en este hecho.
+                                    Le contamos qué es y cuáles son las recomendaciones para usar estas métricas en todo
+                                    y cualquiera…</p>
+                            </div>
+                        </div>
+                        <div class="main-content">
+                            <div class="cont-button">
+                                <a href="#">LEER MÁS</a>
+                            </div>
+                            <div class="cont-fecha">
+                                <hr>
+                                <span>18, Agosto, 2018</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- TARJETA #2 -->
+                <article class="card-container card-level-3">
+                    <div class="card-cabeza">
+                        <div class="imagen">
+                            <img src="assets/img/compreso/paths/path-0-3.jpg">
+                        </div>
+                        <div class="categoria">
+                            <span>Tecnología</span>
+                        </div>
+                    </div>
+
+                    <div class="card-cuerpo">
+                        <div class="main-content">
+                            <div class="cont-titular">
+                                <h1>Twitter, la red social que difunde mayor número de noticias falsas.</h1>
+                            </div>
+                            <div class="cont-texto">
+                                <p>La propagación de contenidos e información falsa a través de redes sociales es una tendencia
+                                    que está en aumento y cada día está generando mayores impactos en la toma de...</p>
+                            </div>
+                        </div>
+                        <div class="main-content">
+                            <div class="cont-button">
+                                <a href="#">LEER MÁS</a>
+                            </div>
+                            <div class="cont-fecha">
+                                <hr>
+                                <span>18, Agosto, 2018</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- TARJETA #2 -->
+                <article class="card-container card-level-1">
+                    <div class="card-cabeza">
+                        <div class="imagen">
+                            <img src="assets/img/compreso/paths/path-0-5.jpg">
+                        </div>
+                        <div class="categoria">
+                            <span>E-Commerce</span>
+                        </div>
+                    </div>
+
+                    <div class="card-cuerpo">
+                        <div class="main-content">
+                            <div class="cont-titular">
+                                <h1>¿POR QUÉ APLICAR LA ANALÍTICA WEB EN SU E-COMMERCE COMO ESTRATEGIA PRINCIPAL?</h1>
+                            </div>
+                            <div class="cont-texto">
+                                <p>Todos los resultados son medibles y la analítica web cumple un papel importante en este hecho.
+                                    Le contamos qué es y cuáles son las recomendaciones para usar estas métricas en todo
+                                    y cualquiera…</p>
+                            </div>
+                        </div>
+                        <div class="main-content">
+                            <div class="cont-button">
+                                <a href="#">LEER MÁS</a>
+                            </div>
+                            <div class="cont-fecha">
+                                <hr>
+                                <span>18, Agosto, 2018</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+
+                <!-- TARJETA #2 -->
+                <article class="card-container card-level-2">
+                    <div class="card-cabeza">
+                        <div class="imagen">
+                            <img src="assets/img/compreso/paths/path-0-6.jpg">
+                        </div>
+                        <div class="categoria">
+                            <span>E-Commerce</span>
+                        </div>
+                    </div>
+
+                    <div class="card-cuerpo">
+                        <div class="main-content">
+                            <div class="cont-titular">
+                                <h1>¿POR QUÉ APLICAR LA ANALÍTICA WEB EN SU E-COMMERCE COMO ESTRATEGIA PRINCIPAL?</h1>
+                            </div>
+                            <div class="cont-texto">
+                                <p>Todos los resultados son medibles y la analítica web cumple un papel importante en este hecho.
+                                    Le contamos qué es y cuáles son las recomendaciones para usar estas métricas en todo
+                                    y cualquiera…</p>
+                            </div>
+                        </div>
+                        <div class="main-content">
+                            <div class="cont-button">
+                                <a href="#">LEER MÁS</a>
+                            </div>
+                            <div class="cont-fecha">
+                                <hr>
+                                <span>18, Agosto, 2018</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- TARJETA #2 -->
+                <article class="card-container card-level-3">
+                    <div class="card-cabeza">
+                        <div class="imagen">
+                            <img src="assets/img/compreso/paths/path-0-3.jpg">
+                        </div>
+                        <div class="categoria">
+                            <span>Tecnología</span>
+                        </div>
+                    </div>
+
+                    <div class="card-cuerpo">
+                        <div class="main-content">
+                            <div class="cont-titular">
+                                <h1>Twitter, la red social que difunde mayor número de noticias falsas.</h1>
+                            </div>
+                            <div class="cont-texto">
+                                <p>La propagación de contenidos e información falsa a través de redes sociales es una tendencia
+                                    que está en aumento y cada día está generando mayores impactos en la toma de...</p>
+                            </div>
+                        </div>
+                        <div class="main-content">
+                            <div class="cont-button">
+                                <a href="#">LEER MÁS</a>
+                            </div>
+                            <div class="cont-fecha">
+                                <hr>
+                                <span>18, Agosto, 2018</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <section class="container-grid hijo-2 t-all-center">
+                <div class="">
+                    <h8 class="c-2 f-segoe-bn t-center">ÚLTIMAS ENTRADAS</h8>
+                </div>
+                <div class="n">
+                    <h8 class="f-segoe-sl">Campo1</h8>
+                </div>
+                <div class="n">
+                    <h8 class="f-segoe-sl">Campo2</h8>
+                </div>
+                <div class="n">
+                    <h8 class="f-segoe-sl">Campo3</h8>
+                </div>
+                <div class="n">
+                    <h8 class="f-segoe-sl">Campo4</h8>
+                </div>
+            </section>
+        </section>
+    </section>
+
 
     <!-- FOOTER -->
     <footer class="container-fluido">

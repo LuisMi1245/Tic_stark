@@ -174,37 +174,47 @@ ORDEN EN LA DEFINICIÓN DE ATRIBUTOS:
         </article>
     </section>
 
-  <!-- BLOG (PERMITE CAMBIOS EN ELEMENTOS CON FLEX) -->
-  <section class="blog" id="BLOG">
+
+    <!-- BLOG -->
+    <section class="blog" id="BLOG">
         <div class="text-container">
             <h2 class="c-2 f-segoe-bn color-ticstark-black">BLOG</h2>
         </div>
+
         <!-- BLOG CONTENIDO -->
-        <div class="container-grid fitems-center">
+        <div class="container-grid fitems-center page-home">
+
 
             <!-- TARJETA # 1 -->
             <article class="card-container card-level-3">
                 <div class="card-cabeza">
-                    <img src="assets/img/compreso/paths/path-0.jpg">
+                    <div class="imagen">
+                        <img src="assets/img/compreso/paths/path-0.jpg">
+                    </div>
                     <div class="categoria">
                         <span>E-Commerce</span>
                     </div>
                 </div>
 
                 <div class="card-cuerpo">
-                    <div class="cont-titular">
-                        <h1>¿POR QUÉ APLICAR LA ANALÍTICA WEB EN SU E-COMMERCE?</h1>
+                    <div class="main-content">
+                        <div class="cont-titular">
+                            <h1>¿POR QUÉ APLICAR LA ANALÍTICA WEB EN SU E-COMMERCE?</h1>
+                        </div>
+                        <div class="cont-texto">
+                            <p>Todos los resultados son medibles y la analítica web cumple un papel importante en este hecho.
+                                Le contamos qué es y cuáles son las recomendaciones para usar estas métricas en…</p>
+                        </div>
                     </div>
-                    <div class="cont-texto">
-                        <p>Todos los resultados son medibles y la analítica web cumple un papel importante en este hecho. Le
-                            contamos qué es y cuáles son las recomendaciones para usar estas métricas en…</p>
-                    </div>
-                    <div class="cont-button">
-                        <a href="#">LEER MÁS</a>
-                    </div>
-                    <hr>
-                    <div class="cont-fecha">
-                        <span>18, Agosto, 2018</span>
+
+                    <div class="main-content">
+                        <div class="cont-button">
+                            <a href="#">LEER MÁS</a>
+                        </div>
+                        <div class="cont-fecha">
+                            <hr>
+                            <span>18, Agosto, 2018</span>
+                        </div>
                     </div>
                 </div>
             </article>
@@ -212,24 +222,33 @@ ORDEN EN LA DEFINICIÓN DE ATRIBUTOS:
             <!-- TARJETA # 1 -->
             <article class="card-container card-level-3">
                 <div class="card-cabeza">
-                    <img src="assets/img/compreso/paths/path-0-1.jpg">
+                    <div class="imagen">
+                        <img src="assets/img/compreso/paths/path-0-1.jpg">
+                    </div>
                     <div class="categoria">
                         <span>Fechas</span>
                     </div>
                 </div>
 
-                <div class="card-cuerpo fitems-start">
-                    <div class="cont-titular">
-                        <h1>DÍA DE LA MUJER: ¿CUÁL ES SU IMPACTO EN EL MUNDO DIGITAL?</h1>
+                <div class="card-cuerpo">
+                    <div class="main-content">
+                        <div class="cont-titular">
+                            <h1>DÍA DE LA MUJER: ¿CUÁL ES SU IMPACTO EN EL MUNDO DIGITAL?</h1>
+                        </div>
+                        <div class="cont-texto">
+                            <p>Este 8 de marzo se conmemora en todo el mundo el Día Internacional de la Mujer, una fecha que
+                                celebra su valentía, coraje y papel en la sociedad. En el que cumplen como uno de lo...</p>
+                        </div>
                     </div>
-                    <div class="cont-texto">
-                        <p>Este 8 de marzo se conmemora en todo el mundo el Día Internacional de la Mujer, una fecha que celebra su valentía, coraje y papel en la sociedad. En el que cumplen como uno de lo...</div>
-                    <div class="cont-button">
-                        <a href="#">LEER MÁS</a>
-                    </div>
-                    <hr>
-                    <div class="cont-fecha">
-                        <span>19, Agosto, 2018</span>
+
+                    <div class="main-content">
+                        <div class="cont-button">
+                            <a href="#">LEER MÁS</a>
+                        </div>
+                        <div class="cont-fecha">
+                            <hr>
+                            <span>18, Agosto, 2018</span>
+                        </div>
                     </div>
                 </div>
             </article>
@@ -237,56 +256,75 @@ ORDEN EN LA DEFINICIÓN DE ATRIBUTOS:
             <!-- TARJETA # 1 -->
             <article class="card-container card-level-3">
                 <div class="card-cabeza">
-                    <img src="assets/img/compreso/paths/path-0-2.jpg">
+                    <div class="imagen">
+                        <img src="assets/img/compreso/paths/path-0-2.jpg">
+                    </div>
                     <div class="categoria">
                         <span>Tecnología</span>
                     </div>
                 </div>
 
                 <div class="card-cuerpo">
-                    <div class="cont-titular">
-                        <h1>Plataformas digitales: últimas innovaciones</h1>
+                    <div class="main-content">
+                        <div class="cont-titular">
+                            <h1>Plataformas digitales: últimas innovaciones</h1>
+                        </div>
+                        <div class="cont-texto">
+                            <p>La implementación de nuevas funcionalidades, el desarrollo de nuevos servicios de mensajería
+                                instantánea y las nuevas métricas para los anunciantes, son algunas de las innovaciones con
+                                las que inician el nuevo...</p>
+                        </div>
                     </div>
-                    <div class="cont-texto">
-                        <p>La implementación de nuevas funcionalidades, el desarrollo de nuevos servicios de mensajería instantánea y las nuevas métricas para los anunciantes, son algunas de las innovaciones con las que inician el nuevo...</p>
-                    </div>
-                    <div class="cont-button">
-                        <a href="#">LEER MÁS</a>
-                    </div>
-                    <hr>
-                    <div class="cont-fecha">
-                        <span>14, Agosto, 2018</span>
+
+                    <div class="main-content">
+                        <div class="cont-button">
+                            <a href="#">LEER MÁS</a>
+                        </div>
+                        <div class="cont-fecha">
+                            <hr>
+                            <span>18, Agosto, 2018</span>
+                        </div>
                     </div>
                 </div>
             </article>
+
+
             <!-- TARJETA # 1 -->
             <article class="card-container card-level-3">
                 <div class="card-cabeza">
-                    <img src="assets/img/compreso/paths/path-0-3.jpg">
+                    <div class="imagen">
+                        <img src="assets/img/compreso/paths/path-0-3.jpg">
+                    </div>
                     <div class="categoria">
                         <span>Redes Sociales</span>
                     </div>
                 </div>
 
                 <div class="card-cuerpo">
-                    <div class="cont-titular">
-                        <h1>No sobredimensione el nuevo algoritmo de Facebook y reafirme su estrategia digital</h1>
+                    <div class="main-content">
+                        <div class="cont-titular">
+                            <h1>No sobredimensione el nuevo algoritmo de Facebook y reafirme su estrategia digital</h1>
+                        </div>
+                        <div class="cont-texto">
+                            <p>Con la intensión de regresar a sus orígenes, Facebook decidió volver a darle prioridad a la cercanía
+                                entre las personas y a la construcción de relaciones. Aunque romántica la idea,…</p>
+                        </div>
                     </div>
-                    <div class="cont-texto">
-                        <p>Con la intensión de regresar a sus orígenes, Facebook decidió volver a darle prioridad a la cercanía entre las personas y a la construcción de relaciones. Aunque romántica la idea,…</p>
-                    </div>
-                    <div class="cont-button">
-                        <a href="#">LEER MÁS</a>
-                    </div>
-                    <hr>
-                    <div class="cont-fecha">
-                        <span>18, Agosto, 2018</span>
+
+                    <div class="main-content">
+                        <div class="cont-button">
+                            <a href="#">LEER MÁS</a>
+                        </div>
+                        <div class="cont-fecha">
+                            <hr>
+                            <span>18, Agosto, 2018</span>
+                        </div>
                     </div>
                 </div>
             </article>
         </div>
     </section>
-    
+
     <!-- PARTNERS/CLIENTES (PERMITE CAMBIOS EN ELEMENTOS CON FLEX) -->
     <section class="background-color-ts-9" id="CUSTOMER">
         <div class=" container-flex nowrap-align-center">

@@ -1,1 +1,0 @@
-# Tic_stark

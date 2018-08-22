@@ -1,0 +1,1724 @@
+/*
+Theme Name: Ticstark
+Theme URI: http://www.ticstark.com
+Author: Ticstark: Luis Miguel Patiño
+Version: 1.0
+*/
+
+/*Estilos generales alineaciones para el articulo*/
+
+.center {
+    text-align: center;
+}
+
+img.center,
+img[align="center"] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.alignleft {
+    float: left;
+}
+
+img.alignleft,
+img[align="left"] {
+    float: left;
+    margin: 2px 10px 5px 0px;
+}
+
+.alignright {
+    float: right;
+}
+
+img.alignright,
+img[align="right"] {
+    float: right;
+    margin: 2px 0px 5px 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+hr.clear {
+    clear: both;
+    visibility: hidden;
+    margin: 0px;
+    padding: 0px;
+    height: 0px;
+}
+
+.parrafo-single-page p {
+    margin-bottom: 15px;
+}
+
+/* ticstark-reset.css */
+
+/* RESETEANDO CONFIGURACION PREDETERMINADA DE LOS NAVEGADORES */
+
+html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'segoe-regular-new';
+    font-size: 16px;
+    text-align: left;
+    color: black;
+    background-color: white;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    /* font-size: 1rem; */
+    font-size: 1.18vw;
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+    text-decoration: none;
+}
+
+h1>a {
+    color: #515151;
+}
+
+a:hover {
+    color: #3f3232;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 4.5rem;
+}
+
+h3 {
+    font-size: 4rem;
+}
+
+h4 {
+    font-size: 3.5rem;
+}
+
+h5 {
+    font-size: 3rem;
+}
+
+h6 {
+    font-size: 2.5rem;
+}
+
+h7 {
+    font-size: 2rem;
+}
+
+h8 {
+    font-size: 1.5rem;
+}
+
+h9 {
+    font-size: 1rem;
+}
+
+/* REGLAS BARRA DE NAVEGACION */
+
+nav>ul {
+    display: inline-block;
+}
+
+nav>ul>li {
+    text-align: center;
+    list-style-type: none;
+}
+
+ol li {
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+
+ul li {
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+header {
+    z-index: 20;
+}
+
+/* ESTILOS PERSONALIZADOS */
+
+.portada {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    padding: 36vh 0 32vh 0;
+}
+
+.a {
+    /* Style for "CREATIVIDAD" */
+    color: #ffffff;
+    font-size: 4.29vw;
+    letter-spacing: .875vw;
+    line-height: 4.74vw;
+    text-transform: uppercase;
+}
+
+.a-1-blog {
+    font-weight: 800;
+}
+
+.a-blog,
+.a-1-blog,
+.a-blog-page {
+    /* Style for "TICSTARK" */
+    color: #ffffff;
+    font-size: 7.29vw;
+    letter-spacing: .275vw;
+    line-height: 8.74vw;
+    text-transform: uppercase;
+}
+
+.a-blog-page {
+    text-align: center;
+    font-size: 4vw;
+    letter-spacing: .1vw;
+}
+
+.b {
+    /* Style for "NUESTRA PRIORIDAD */
+    color: #ffffff;
+    font-size: 2vw;
+    font-weight: 300;
+    letter-spacing: 1vw;
+    text-transform: uppercase;
+}
+
+.b-blog {
+    /* Style for "BLOG*/
+    color: #ffffff;
+    font-size: 2.5vw;
+    font-weight: 200;
+    letter-spacing: 1vw;
+    text-transform: uppercase;
+}
+
+.c {
+    /* Style for "MARCA / DI" */
+    color: #e1e1e1;
+    font-size: 1.63vw;
+    font-weight: 400;
+    letter-spacing: 0.26vw;
+    text-transform: uppercase;
+}
+
+.d {
+    /* Style for "COPYRIGHT" */
+    font-size: 1.04vw;
+    text-transform: uppercase;
+    padding: 3% 6% 3% 6%;
+}
+
+.e {
+    /* Style for "UBICACION" */
+    color: #ffffff;
+    font-size: 1.48vw;
+    text-transform: uppercase;
+    padding: 10% 0% 10% 0%;
+}
+
+ul.f>* {
+    /* Style for "info@ticst" */
+    color: #d8d9d9;
+    font-family: "segoe-regular-new";
+    font-size: 1.11vw;
+    font-weight: 400;
+    line-height: 2.22vw;
+}
+
+.g>* {
+    /* Style for "info@ticst" */
+    color: #4c4e50;
+    font-family: "segoe-regular-new";
+    font-size: 1.18vw;
+    font-weight: 400;
+    line-height: 2.96vw;
+}
+
+.g1 {
+    padding-bottom: 5%;
+}
+
+.h {
+    margin-top: 10%;
+    font-size: 1.5vw;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.a-2 {
+    /* Style for "IDENTIDAD" */
+    margin-bottom: 8%;
+    color: #47454e;
+    font-size: 2.18vw;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.b-2 {
+    /* Style for "Le damos i" */
+    color: #6e7174;
+    font-size: 1.5vw;
+    font-weight: 300;
+}
+
+strong.b-2 {
+    color: #232425;
+}
+
+.text-container>h2.c-2 {
+    color: #595d61;
+    font-size: 1.9vw;
+}
+
+.text-container.bottom>a.c-2 {
+    font-size: 1.1vw;
+    color: #595d61;
+    font-weight: bold;
+    transition: all .4s;
+}
+
+.text-container.bottom>a.c-2:hover {
+    color: #1a1b1d;
+    transition: all .4s;
+}
+
+.text-container.bottom {
+    display: inline-block;
+    margin-left: 2%;
+}
+
+.text-container>h1.c-2 {
+    font-size: 2vw;
+}
+
+.c-2,
+.c-3 {
+    font-size: 2.22vw;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.c-4 {
+    font-size: 2vw;
+    font-weight: 400;
+}
+
+.sr {
+    padding: 10%;
+}
+
+.sr3 {
+    padding: 5%;
+}
+
+.sr4 {
+    padding: 3% 6% 3% 6%;
+}
+
+.sr5 {
+    padding: 4% 0% 4% 0%;
+}
+
+.boton {
+    margin: 8vh;
+}
+
+.blog {
+    padding: 4% 4% 4% 3%
+}
+
+.customer {
+    padding: 3% 6% 3% 6%;
+}
+
+.text-container {
+    padding: 3% 0% 3% 0%;
+}
+
+.text-container.bottom {
+    padding: 1% 0% 1% 0%;
+}
+
+ul.all-color-6>li>* {
+    color: var(--tscolor-6);
+}
+
+ul.all-color-n>li>* {
+    color: white;
+}
+
+.margin-5 {
+    margin: 5%;
+}
+
+.margin-4 {
+    margin: 0% 1.5% 0% 1.5%;
+}
+
+.margin-3>* {
+    margin: 3% 0% 0% 0%;
+}
+
+.icons {
+    margin: 1vw 0vw 1vw 0vw;
+}
+
+.subicons {
+    margin-right: 1vw;
+}
+
+.img-relative-2 {
+    width: 10vw;
+    height: 10vw;
+}
+
+.img-relative-3 {
+    width: 35vw;
+    height: 45vw;
+}
+
+/* MICRO-FRAMEWORK DISEÑO ATÓMICO
+BY LUIS PATIÑO BUENDÍA */
+
+/*  CONSEJOS:
+1) FLOAT LEFT FUNCIONA PERO NO RESPETA LA PROPIEDAD HEIGHT.
+2) FLOAT SE DEFINE PARA FLOTAR IMÁGENES Y NO PARA MAQUETAR .
+3) overflow: hidden; permite desaparecer el resto de imagen desbordada.
+4) BOX-SIZING:border-box; encaja los elementos sin desbordar la caja padre.
+5) PC-TV:
+    a. Posición: 
+        {position, top, left, right, bottom, clear, z-index}
+    b. Caja (modelo caja):
+        {display, float, margin, padding, width, height}
+    c. Tipografía:
+        {font-family, font-size, line-height, color, text-align}
+    d Visual (Apartado visual):
+        {background-color, border, border-radius, outline, opacity}
+
+
+    SELECTOR: 
+    1.(prefijo_letra)-(descripcion_corta)-(sub_tipo)
+    2.(descripcion_corta)-(sub_tipo)
+    3.(descripcion_corta)   
+    */
+
+/* ESTILOS ESTÁTICOS */
+
+.fixed-position {
+    position: fixed;
+    z-index: 5;
+}
+
+.hiddenof {
+    overflow: hidden;
+}
+
+img.img-full,
+audio,
+video,
+iframe,
+canvas,
+svg,
+picture {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.border>* {
+    border: thin solid black;
+}
+
+/* REGLAS PARA LISTAS */
+
+ol.lista-decimal-zero>li {
+    list-style-type: decimal-leading-zero;
+    list-style-position: inside;
+}
+
+ol.lista-minuscula-alpha>li {
+    list-style-type: lower-alpha;
+    list-style-position: inside;
+}
+
+ol.lista-mayuscula-alpha>li {
+    list-style-type: upper-alpha;
+    list-style-position: inside;
+}
+
+ul.lista-square>li {
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+ul.lista-circle>li {
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+.lista-none>li {
+    list-style-type: none;
+}
+
+/* REGLAS PARA HEADER */
+
+.header-fix {
+    position: fixed;
+}
+
+.header-back-change {
+    background-color: #040610;
+    -webkit-transition: all .6s;
+    transition: all .6s;
+}
+
+.header-back {
+    background-color: transparent;
+    -webkit-transition: all .6s;
+    transition: all .6s;
+}
+
+figure.header-logo {
+    padding: 1.6vw 0vw 1.6vw 1.6vw;
+}
+
+nav.header-nav {
+    font-family: 'segoe-regular-new';
+}
+
+nav.header-nav ul {
+    margin: 0% 1.5% 0% 1.5%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+nav.header-nav ul>li {
+    padding: 0vw 1.2vw 0vw 1.2vw;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+}
+
+nav.header-nav ul li>a {
+    font-size: 1vw;
+    font-weight: 500;
+    letter-spacing: .23vw;
+    color: #ffffff;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+nav.header-nav ul li>a::before {
+    font-family: "Font Awesome 5 Free";
+    text-rendering: auto;
+    position: relative;
+    content: '\f0c8';
+    color: #EE1C44;
+    opacity: 0;
+    -webkit-transition: .4s;
+    transition: .4s;
+    left: -0.37vw;
+    top: 0.07vw;
+}
+
+nav.header-nav.h-home ul li:nth-child(1)>a::before {
+    opacity: 1;
+}
+
+nav.header-nav.h-blog ul li:nth-child(3)>a::before {
+    opacity: 1;
+}
+
+nav.header-nav ul>li:nth-child(5):hover {
+    -webkit-transform: translateX(-0.37vw);
+    transform: translateX(-0.37vw);
+}
+
+nav.header-nav ul>li:hover {
+    -webkit-transform: translateX(0.37vw);
+    transform: translateX(0.37vw);
+}
+
+nav.header-nav li:hover a::before {
+    opacity: 1;
+    -webkit-transition: color .4s;
+    transition: color .4s;
+}
+
+nav.header-nav li>a:visited {
+    color: #f3f3f3;
+}
+
+/* TIPOGRAFÍA */
+
+.f-segoe-r {
+    font-family: 'segoe-regular';
+}
+
+.f-segoe-rn {
+    font-family: 'segoe-regular-new';
+}
+
+.f-segoe-b {
+    font-family: 'segoe-bold';
+}
+
+.f-segoe-bn {
+    font-family: 'segoe-bold-new';
+}
+
+.f-segoe-sb {
+    font-family: 'segoe-semibold';
+}
+
+.f-montserrat-b {
+    font-family: 'montserrat-bold';
+}
+
+.f-montserrat-sb {
+    font-family: 'montserrat-semibold';
+}
+
+.f-all-segoe-r>* {
+    font-family: 'segoe-regular';
+}
+
+.f-all-segoe-rn>* {
+    font-family: 'segoe-regular-new';
+}
+
+.f-all-segoe-b>* {
+    font-family: 'segoe-bold';
+}
+
+.f-all-segoe-bn>* {
+    font-family: 'segoe-bold-new';
+}
+
+.f-all-segoe-sb>* {
+    font-family: 'segoe-semibold';
+}
+
+.f-all-montserrat-b>* {
+    font-family: 'montserrat-bold';
+}
+
+.f-all-montserrat-sb>* {
+    font-family: 'montserrat-semibold';
+}
+
+/* ALINEACION DE TEXTO */
+
+.t-all-center>* {
+    text-align: center;
+}
+
+.t-all-left>* {
+    text-align: left;
+}
+
+.t-all-right>* {
+    text-align: right;
+}
+
+.t-center {
+    text-align: center;
+}
+
+.t-left {
+    text-align: left;
+}
+
+.t-right {
+    text-align: right;
+}
+
+.color-ticstark-1 {
+    color: #f3f3f3;
+}
+
+.color-ticstark-2 {
+    color: #b8b8b8;
+}
+
+.color-ticstark-3 {
+    color: #313746;
+}
+
+.color-ticstark-4 {
+    color: #12141c;
+}
+
+.color-ticstark-5 {
+    color: #d90e45;
+}
+
+.color-ticstark-6 {
+    color: #4c4e50;
+}
+
+.color-ticstark-7 {
+    color: #95989a;
+}
+
+.color-ticstark-8 {
+    color: #d8d9d9;
+}
+
+.color-ticstark-white {
+    color: white;
+}
+
+.color-ticstark-black {
+    color: black;
+}
+
+.all-color-ticstark-1>* {
+    --tscolor-1: #f3f3f3;
+    color: #f3f3f3;
+}
+
+.all-color-ticstark-2>* {
+    --tscolor-2: #b8b8b8;
+    color: #b8b8b8;
+}
+
+.all-color-ticstark-3>* {
+    --tscolor-3: #313746;
+    color: #313746;
+}
+
+.all-color-ticstark-4>* {
+    --tscolor-4: #12141c;
+    color: #12141c;
+}
+
+.all-color-ticstark-5>* {
+    --tscolor-5: #d90e45;
+    color: #d90e45;
+}
+
+.all-color-ticstark-6>* {
+    --tscolor-6: #4c4e50;
+    color: #4c4e50;
+}
+
+.all-color-ticstark-7>* {
+    --tscolor-7: #95989a;
+    color: #95989a;
+}
+
+.all-color-ticstark-white>* {
+    color: white;
+}
+
+.all-color-ticstark-black>* {
+    color: black;
+}
+
+/* FONDOS */
+
+.background-color-ts-1 {
+    background-color: #f3f3f3;
+}
+
+.background-color-ts-2 {
+    background-color: #b8b8b8;
+}
+
+.background-color-ts-3 {
+    background-color: #313746;
+}
+
+.background-color-ts-3-1 {
+    background-color: #363146;
+}
+
+.background-color-ts-3-2 {
+    background-color: #463631;
+}
+
+.background-color-ts-4 {
+    background-color: #12141c;
+}
+
+.background-color-ts-5-0 {
+    background-color: #EE1C44;
+}
+
+.background-color-ts-5 {
+    background-color: #d90e45;
+}
+
+.background-color-ts-5-1 {
+    background-color: #f2225b;
+}
+
+.background-color-ts-5-2 {
+    background-color: #f83b6f;
+}
+
+.background-color-ts-5-3 {
+    background-color: #f65a84;
+}
+
+.background-white {
+    background-color: white;
+}
+
+.background-color-ts-6 {
+    /* Style for "SECTION 01" */
+    background-color: #fcf6f6;
+}
+
+.background-color-ts-7 {
+    /* Style for "SECTION 01" */
+    background-color: #fcfcfc;
+}
+
+.background-color-ts-8 {
+    /* Style for "SECTION 01" */
+    background-color: #f6f6f6;
+}
+
+.background-color-ts-9 {
+    background-color: #040610;
+}
+
+.background-color-ts-10 {
+    background-color: #090c17;
+}
+
+.background-img-ticstark {
+    background-image: url('assets/img/compreso/TICSTARK-filter.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+
+/* BOTONERA */
+
+a.button,
+button.button,
+input.button {
+    /* Style for "LEER MAS" */
+    font-size: 1.26vw;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding: 0.95vw 3.55vw;
+    color: #ffffff;
+    background: -webkit-gradient(linear, right top, left top, from(#f61451), to(#ee0c48));
+    background: linear-gradient(to left, #f61451, #ee0c48);
+    border-radius: 2.96vw;
+    border: none;
+    -webkit-transition: all .8s;
+    transition: all .8s;
+    cursor: pointer;
+}
+
+a.button:hover,
+button.button:hover,
+input.button:hover {
+    background: -webkit-gradient(linear, right top, left top, from(#a51138), to(#a51138));
+    background: linear-gradient(to left, #a51138, #a51138);
+    -webkit-transition: background .8s;
+    transition: background .8s;
+    -webkit-box-shadow: 0, 01vw 0, 01vw 0, 01vw 0, 01vw rgb(160, 17, 43);
+    box-shadow: 0, 01vw 0, 01vw 0, 01vw 0, 01vw rgb(160, 17, 43);
+    -webkit-transition: -webkit-box-shadow .8s;
+    transition: -webkit-box-shadow .8s;
+    -webkit-transition: -webkit-box-shadow .4s;
+    transition: -webkit-box-shadow .4s;
+    transition: box-shadow .4s;
+    transition: box-shadow .4s, -webkit-box-shadow .4s;
+}
+
+.boton-arrow {
+    position: relative;
+    top: 10vw;
+    width: 2vw;
+    height: auto;
+    -webkit-animation: boton-arrow 2s infinite;
+    animation: boton-arrow 2s infinite;
+}
+
+.boton-arrow:hover {
+    cursor: pointer;
+}
+
+@-webkit-keyframes boton-arrow {
+    0% {
+        top: 10vw
+    }
+    50% {
+        top: 10.3vw
+    }
+    75% {
+        top: 10vw
+    }
+    80% {
+        top: 11vw;
+    }
+    90% {
+        top: 10vw;
+    }
+    95% {
+        top: 10.2vw;
+    }
+    100% {
+        top: 10vw;
+    }
+}
+
+@keyframes boton-arrow {
+    0% {
+        top: 10vw
+    }
+    50% {
+        top: 10.3vw
+    }
+    75% {
+        top: 10vw
+    }
+    80% {
+        top: 11vw;
+    }
+    90% {
+        top: 10vw;
+    }
+    95% {
+        top: 10.2vw;
+    }
+    100% {
+        top: 10vw;
+    }
+}
+
+/* CAJAS DE ENTRADA */
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 2%;
+    border-radius: 0.3vw;
+    border: 0.11vw solid #95989a;
+    background-color: #ffffff;
+    color: #7f8386;
+    font-family: 'segoe-regular-new';
+    font-size: 1.18vw;
+    font-weight: 500;
+    overflow: auto;
+}
+
+input[type="text"],
+input[type="email"] {
+    height: 2.96vw;
+}
+
+/* WIDGETS INPUTS */
+
+label.screen-reader-text {
+    display: none;
+}
+
+section.widget>form>div>input[type="submit"],
+section.widget>form>div>input[type="text"] {
+    width: 100%;
+    padding: 5%;
+    border-radius: 0.2vw;
+    border: .11vw solid #d6d6d6;
+    background-color: #ffffff;
+    color: #313233;
+    outline: none;
+    font-family: 'segoe-regular-new';
+    font-size: 1.3vw;
+    font-weight: 100;
+    overflow: auto;
+    transition: all .3s;
+}
+
+section.widget>form>div>input[type="text"]:focus {
+    transition: all .4s;
+    border: .14vw solid #838586af;
+}
+
+section.widget>form>div {
+    display: grid;
+    grid-template-columns: 70% 20%;
+    grid-gap: .5vw;
+}
+
+section.widget {
+    padding: 0% 10% 0% 2%;
+}
+
+section.widget>.widget-title {
+    font-size: 1.5vw;
+    color: #000000;
+    text-transform: uppercase;
+    font-family: 'segoe-semibold';
+    margin: 0.15vw 0vw 0.7vw 0vw;
+}
+
+section.widget>ul>li {
+    list-style-type: decimal;
+    margin-bottom: .2vw;
+}
+
+section.widget>ul>li>a {
+    letter-spacing: .09vw;
+    text-transform: uppercase;
+    color: #7a7a7a;
+    font-size: .9vw;
+    font-weight: bold;
+    font-family: 'segoe-regular-new';
+    transition: all .3s;
+}
+
+section.widget>ul>li>a:hover {
+    color: #1b1c1d;
+    transition: all .3s;
+}
+
+/* EFECTO CAJA */
+
+.efecto-caja {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+
+.efecto-caja>.img-full {
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+}
+
+.efecto-caja:hover>.img-full {
+    cursor: pointer;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-filter: brightness(.8);
+    filter: brightness(.8);
+}
+
+/* TARJETAS DEL BLOG */
+
+/* CARDS DEL HOME */
+
+.blog {
+    background: #f1f1f1;
+}
+
+div.container-grid.page-home {
+    grid-template-columns: repeat(auto-fill, 23.5%);
+    grid-gap: 1.66vw;
+    padding: 1.46vw;
+}
+
+/* CARDS DEL HOME */
+
+.card-container {
+    -webkit-box-shadow: 0vw 0.59vw 1.32vw rgba(0, 0, 0, 0.3);
+    box-shadow: 0vw 0.59vw 1.32vw rgba(0, 0, 0, 0.3);
+    /* border-radius: 0.57vw; */
+    background-color: white;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+.card-container>.card-cabeza img {
+    max-width: 100%;
+    /* max-height: 100%; */
+    width: 100%;
+    z-index: 0;
+}
+
+.card-level-1>.card-cabeza img {
+    height: 28.4vw;
+}
+
+.card-level-2>.card-cabeza img {
+    height: 19.7vw;
+}
+
+.card-level-3>.card-cabeza img {
+    height: 12.3vw;
+}
+
+.card-container:hover {
+    -webkit-transform: scale(1.03);
+    transform: scale(1.025);
+    -webkit-box-shadow: 0vw 1.83vw 2.56vw rgba(0, 0, 0, 0.3);
+    box-shadow: 0vw 1.8vw 2.5vw rgba(0, 0, 0, 0.3);
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+.card-level-1 {
+    grid-row-end: span 3;
+}
+
+.card-level-2 {
+    grid-row-end: span 2;
+}
+
+.card-level-3 {
+    grid-row-end: span 1;
+}
+
+.card-cabeza {
+    position: relative;
+}
+
+.card-cuerpo {
+    padding: 1.1vw;
+}
+
+.categoria {
+    padding: .3vw .8vw;
+    background: -webkit-gradient(linear, right top, left top, from(#FF4174), to(#ff376c));
+    background: linear-gradient(to left, #FF4174, #ff376c);
+    display: inline-block;
+    position: absolute;
+    top: 0vw;
+    left: 0vw;
+}
+
+span.text_categoria>ul>li>a {
+    font-family: 'segoe-regular-new';
+    font-weight: 500;
+    color: white;
+    font-size: 1vw;
+}
+
+span.text_categoria>ul>li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+/* CONTENT */
+
+.cont-titular h1 {
+    font-size: 1.1vw;
+    color: #515151;
+    text-transform: uppercase;
+    font-family: 'segoe-semibold';
+    margin: 0.15vw 0vw 0.7vw 0vw;
+}
+
+.cont-texto p {
+    color: #555555;
+    font-size: .94vw;
+    font-family: 'segoe-regular-new';
+}
+
+.cont-button {
+    margin: 1.1vw 0vw 0.88vw 0vw;
+}
+
+.cont-button a {
+    font-family: 'segoe-regular-new';
+    padding: .4vw 0vw;
+    text-align: center;
+    display: block;
+    font-size: 1.1vw;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: -webkit-gradient(linear, right top, left top, from(#FF4174), to(#ff376c));
+    background: linear-gradient(to left, #FF4174, #ff376c);
+    border-radius: 9vw;
+    cursor: pointer;
+}
+
+.cont-fecha span {
+    font-size: 1vw;
+    color: #8A8787;
+    font-family: 'segoe-regular-new';
+}
+
+.cont-fecha {
+    text-align: center;
+}
+
+/*Modificando cajas de tarjetas*/
+
+section.container-grid.page-blog {
+    grid-template-columns: 30% 70%;
+    grid-gap: 2vw;
+}
+
+.container-grid.hijo-1 {
+    grid-template-columns: 32.5% 32.5% 32.5%;
+    grid-gap: 1vw;
+}
+
+.container-grid.hijo-2 {
+    padding: 6%;
+    grid-template-rows: 10% 33% 33%;
+}
+
+.card-container.card-level-1 {
+    grid-template-rows: 60% 40%;
+}
+
+.card-container.card-level-2 {
+    grid-template-rows: 50% 50%;
+}
+
+.card-container.card-level-3 {
+    grid-template-rows: 40% 60%;
+}
+
+.card-container.card-level-1,
+.card-container.card-level-2,
+.card-container.card-level-3 {
+    display: grid;
+}
+
+.card-container>.card-cabeza,
+.card-container>.card-cuerpo {
+    grid-template-rows: 80% 20%;
+}
+
+/* SINGLE PAGES */
+
+.portada-single-page {
+    grid-template-rows: 20vw 20vw;
+}
+
+.titular-single-page {
+    padding: 36vh 20vh 36vh 20vh;
+}
+
+section.single-page {
+    padding: 5% 3%;
+    background-color: white;
+    grid-template-columns: 25% 65%;
+    grid-gap: 3vw;
+}
+
+article.hijo-1-single-page {
+    /* background-color: #f2f2f2; */
+}
+
+.img-single-page {
+    width: 80%;
+    height: auto;
+}
+
+.img-single-page>img {
+    max-width: 100%;
+    height: auto;
+}
+
+.parrafo-single-page {}
+
+/* TARJETAS DEL BLOG FIN*/
+
+/* ticstark-grid.css */
+
+main.main_content {
+    display: block;
+    width: auto;
+    max-width: 1366px;
+}
+
+/* 
+Retícula de 12 columnas y el 100% de la pantalla.
+Ecuación: 
+    - N-columnas * (100%/12-col) = % de N columnas
+
+A la hora de maquetar, la ecuación para elegir Col-n es:
+    - 12 Columnas / x Número de item-container = Col-N
+
+Todos los N-item-container deben tener la clase de Col-N resultante.
+La suma de N-item-container debe ser igual a 12, para mantener las proporciones.
+*/
+
+/* AL USAR EL SISTEMA DE GRILLAS, SE PROPORCIONA EL ESPACIO, LA CUAL
+CANCELA EL USO DE ALINEACIONES FLEXBOX */
+
+/* Grillas con flex */
+
+.container-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-flex: 0;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    width: 100%;
+    max-width: 100%;
+    /* flex grow, flex shrink, flex basis */
+}
+
+.col-item-flex-1,
+.col-item-flex-2,
+.col-item-flex-3,
+.col-item-flex-4,
+.col-item-flex-5,
+.col-item-flex-6,
+.col-item-flex-7,
+.col-item-flex-8,
+.col-item-flex-9,
+.col-item-flex-10,
+.col-item-flex-11,
+.col-item-flex-12 {
+    -webkit-box-ordinal-group: 1;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-box-flex: 0, ;
+    -ms-flex: 0, 0, auto;
+    flex: 1 1 auto;
+    /* align-self: auto; */
+}
+
+.col-item-flex-12 {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    max-width: 100%;
+}
+
+.col-item-flex-11 {
+    -ms-flex-preferred-size: 91.666666667%;
+    flex-basis: 91.666666667%;
+    max-width: 91.666666667%;
+}
+
+.col-item-flex-10 {
+    -ms-flex-preferred-size: 83.333333333%;
+    flex-basis: 83.333333333%;
+    max-width: 83.333333333%;
+}
+
+.col-item-flex-9 {
+    -ms-flex-preferred-size: 75%;
+    flex-basis: 75%;
+    max-width: 75%;
+}
+
+.col-item-flex-8 {
+    -ms-flex-preferred-size: 66.666666667;
+    flex-basis: 66.666666667;
+    max-width: 66.666666667;
+}
+
+.col-item-flex-7 {
+    -ms-flex-preferred-size: 58.333333333%;
+    flex-basis: 58.333333333%;
+    max-width: 58.333333333%;
+}
+
+.col-item-flex-6 {
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+    max-width: 50%;
+}
+
+.col-item-flex-5 {
+    -ms-flex-preferred-size: 41.666666667%;
+    flex-basis: 41.666666667%;
+    max-width: 41.666666667%;
+}
+
+.col-item-flex-4 {
+    -ms-flex-preferred-size: 33.333333333%;
+    flex-basis: 33.333333333%;
+    max-width: 33.333333333%;
+}
+
+.col-item-flex-3 {
+    -ms-flex-preferred-size: 25%;
+    flex-basis: 25%;
+    max-width: 25%;
+}
+
+.col-item-flex-2 {
+    -ms-flex-preferred-size: 16.666666667%;
+    flex-basis: 16.666666667%;
+    max-width: 16.666666667%;
+}
+
+.col-item-flex-1 {
+    -ms-flex-preferred-size: 8.333333333%;
+    flex-basis: 8.333333333%;
+    max-width: 8.333333333%;
+}
+
+.col-item-auto {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-preferred-size: 0;
+    max-width: 100%;
+}
+
+.col-item-custom-1 {
+    -ms-flex-preferred-size: 48%;
+    flex-basis: 48%;
+    max-width: 48%;
+}
+
+.col-item-custom-2 {
+    flex-basis: 22%;
+    max-width: 22%;
+}
+
+/* Grillas con CSS Grid Layout */
+
+.container-grid {
+    display: grid;
+}
+
+/* A los hijos del container grid se les puede agregar display grid para subdividirlos */
+
+/* ticstark-layout.css */
+
+/* TECNICAS DE MAQUETACION  */
+
+/* 
+b. CAJA (MODELO-CAJA):
+{display, float, margin, padding, width, height}
+  
+ SELECTOR: 
+ 1.(prefijo_letra)-(descripcion_corta)-(sub_tipo)
+ 2.(descripcion_corta)-(sub_tipo)
+ 3.(descripcion_corta) */
+
+/*  TÉCNICA DE MAQUETACIÓN #1 (FLOAT)
+ SALVO QUE EL NAVEGADOR SEA MUY ANTIGUO, USAR FLOAT 
+Requiere una clase padre clear*/
+
+.float-l {
+    float: left;
+}
+
+.float-r {
+    float: right;
+}
+
+.float-n {
+    float: none;
+}
+
+.clear,
+.clear::after,
+.clear::before {
+    clear: both;
+}
+
+.clear::after,
+.clear::before {
+    content: " ";
+    display: block;
+}
+
+/* TÉCNICA DE MAQUETACIÓN #2 (DISPLAY:INLINE-BLOCK)
+Requiere una clase padre font-0 + alineación vertical*/
+
+.font-0 {
+    font-size: 0vw;
+}
+
+.d-line-b {
+    display: inline-block;
+}
+
+.d-line {
+    display: inline;
+}
+
+.d-block {
+    display: block;
+}
+
+.d-none {
+    display: none;
+}
+
+/* ALINEA ITEM-CONTAINER QUE SE ENCUENTRAN SEGUIDOS DE UNO MÁS ALTO.*/
+
+.v-align-baseline {
+    vertical-align: baseline;
+}
+
+.v-align-bottom {
+    vertical-align: bottom;
+}
+
+.v-align-middle {
+    vertical-align: middle;
+}
+
+.v-align-top {
+    vertical-align: top;
+}
+
+/* TÉCNICA DE MAQUETACIÓN #3 (DISPLAY:TABLE)*/
+
+.d-table {
+    display: table;
+}
+
+.d-table-line {
+    display: inline-table;
+}
+
+.d-table-cell {
+    display: table-cell;
+}
+
+/* TÉCNICA DE MAQUETACIÓN #4 (DISPLAY:FLEX)
+Requiere un padre container-flex e hijos d-flex-item(opcional) y padres con flexflow(opcional) */
+
+.d-flex-line {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+}
+
+/* UNA LINEA (NOWRAP) VARIAS LINEAS (WRAP O W-REVERSE), 
+es decir, si se desborda del contenedor padre,este pasa a otra linea nueva si es wrap,
+si es nowrap, se desborda, pero solo si flex-direction es column. */
+
+/* SHORTHAND (flexflow-{direccion:columna,fila,reversa}-{polilinea-onelinea}) */
+
+/* usada */
+
+.flexflow-r-ol {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+}
+
+/* usada */
+
+.flexflow-r-pl {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+
+.flexflow-r-plr {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap-reverse;
+    flex-flow: row wrap-reverse;
+}
+
+.flexflow-rr-ol {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-flow: row-reverse nowrap;
+    flex-flow: row-reverse nowrap;
+}
+
+.flexflow-rr-pl {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-flow: row-reverse wrap;
+    flex-flow: row-reverse wrap;
+}
+
+.flexflow-rr-plr {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-flow: row-reverse wrap-reverse;
+    flex-flow: row-reverse wrap-reverse;
+}
+
+/* usada */
+
+.flexflow-c-ol {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+}
+
+/* usada */
+
+.flexflow-c-pl {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column wrap;
+    flex-flow: column wrap;
+}
+
+.flexflow-c-plr {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column wrap-reverse;
+    flex-flow: column wrap-reverse;
+}
+
+.flexflow-cr-ol {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-flow: column-reverse nowrap;
+    flex-flow: column-reverse nowrap;
+}
+
+.flexflow-cr-pl {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-flow: column-reverse wrap;
+    flex-flow: column-reverse wrap;
+}
+
+.flexflow-cr-plr {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-flow: column-reverse wrap-reverse;
+    flex-flow: column-reverse wrap-reverse;
+}
+
+/* COMO SE ACOMODAN LOS ELEMENTOS (NO LAS CAJAS) DEL EJE PRINCIPAL (HORIZONTAL, SEGUN LA ESCRITURA OCCIDENTAL) */
+
+/* SIMILAR A FLOAT */
+
+/* FUNCIONAN SI NO SE USA EL SISTEMA DE GRIDS (COL-N) */
+
+.fitems-start {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+.fitems-end {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+/* MUY RECOMENDABLE USAR */
+
+.fitems-center {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.fitems-spacearound {
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.fitems-spacebetween {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+/* PARA EL EJE TRANSVERSAL, 
+USAMOS ALIGN ITEMS (SI ES NOWRAP) O ALIGN CONTENT (SI ES WRAP/REVERSE) */
+
+/* MUY RECOMENDABLE USAR */
+
+.nowrap-align-start {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.nowrap-align-end {
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+}
+
+.nowrap-align-center {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.nowrap-align-stretch {
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+}
+
+.nowrap-align-baseline {
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline
+}
+
+.wrap-align-start {
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+}
+
+.wrap-align-end {
+    -ms-flex-line-pack: end;
+    align-content: flex-end;
+}
+
+.wrap-align-center {
+    -ms-flex-line-pack: center;
+    align-content: center;
+}
+
+.wrap-align-stretch {
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+}
+
+.wrap-align-spacebetween {
+    -ms-flex-line-pack: justify;
+    align-content: space-between;
+}
+
+.wrap-align-spacearound {
+    -ms-flex-line-pack: distribute;
+    align-content: space-around;
+}
+
+/* CRECIMIENTO DE LOS CONTAINERS FLEX */
+
+.flex-grow-1 {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+
+/* TÉCNICA DE MAQUETACIÓN #4 (DISPLAY:GRID) */

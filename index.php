@@ -18,7 +18,14 @@
                 <h2 class="f-segoe-r c">MARCA - DISEÑO - DESARROLLO</h2>
             </div>
             <div class="boton">
-                <a class="button f-segoe-rn" href="sketch.html">LEER MÁS</a>
+                <a class="button f-segoe-rn" href="<?php
+    require_once(dirname(__FILE__) . '/page.php');
+    header("HTTP/1.1 200 OK");
+    header("Status: 200 All rosy");
+
+    // Your Wordpress Functions here...
+    echo site_url();
+?>">LEER MÁS</a>
             </div>
         </figure>
     </div>

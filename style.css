@@ -205,7 +205,13 @@ header {
     letter-spacing: 1vw;
     text-transform: uppercase;
 }
+.b-blog-page {
+    color: #000000;
+    font-size: 2vw;
+    text-align: center;
+    margin: 2%;
 
+}
 .c {
     /* Style for "MARCA / DI" */
     color: #e1e1e1;
@@ -1156,7 +1162,7 @@ span.text_categoria>ul>li {
     color: #ffffff;
     background: -webkit-gradient(linear, right top, left top, from(#FF4174), to(#ff376c));
     background: linear-gradient(to left, #FF4174, #ff376c);
-    border-radius: 9vw;
+    /* border-radius: 9vw; */
     cursor: pointer;
 }
 

@@ -1,20 +1,21 @@
 <?php get_header();?>
 
 <section class="container-grid background-color-ts-3-1" id="PORTADA">
-    
 <section>
   <div class="titular-single-page">
-        <h1 class="f-segoe-sl a-blog-page">
+        <h1 class="f-segoe-sb a-blog-page">
             <?php the_title();?>
         </h1>
     </div>
 </section>
 
-
 <section class="container-grid single-page">
 <?php get_sidebar();?>
 <article class="container-grid hijo-1-single-page">
 <?php if (have_posts()) : while(have_posts()) : the_post(); ?>
+<h1 class="f-segoe-sb b-blog-page">
+<?php the_title();?>
+</h1>
 <div class="img-single-page">
 <?php 
 the_post_thumbnail();

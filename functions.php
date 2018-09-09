@@ -42,5 +42,3 @@ function nivel_tarjeta() {
         }
     }
 }
-
-?>

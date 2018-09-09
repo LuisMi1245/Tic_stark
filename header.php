@@ -16,8 +16,12 @@
         crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/fontawesome.css" integrity="sha384-ozJwkrqb90Oa3ZNb+yKFW2lToAWYdTiF1vt8JiH5ptTGHTGcN7qdoR1F95e0kYyG"
         crossorigin="anonymous">
-        <?php wp_head();?>
-    </head>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+        crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js" integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
+        crossorigin=""></script>
+    <?php wp_head();?>
+</head>
 
 <body>
     <!-- HEADER -->
@@ -25,7 +29,7 @@
         <!-- LOGOTIPO -->
         <div class="col-item-flex-2">
             <figure class="header-logo">
-                <a href="#PORTADA">
+                <a href="<?php echo get_home_url(); ?>">
                     <img class="img-full" src="<?php bloginfo('template_url')?>/assets/img/svg-images/logo-white.svg">
                 </a>
             </figure>

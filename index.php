@@ -3,13 +3,13 @@
 <!-- PORTADA (PERMITE CAMBIOS EN ELEMENTOS CON FLEX) -->
 <section class="portada container-flex background-img-ticstark" id="PORTADA">
     <!-- <video playsinline autoplay muted loop poster="pulina.jpg" id="video_back">
-            <source src="<?php bloginfo('template_url')?>/assets/video_header/polina.webm" type="video/webm">
+            <source src="<?php //bloginfo('template_url')?>/assets/video_header/polina.webm" type="video/webm">
             <source src="pulina.mp4" type="video/mp4">
         </video> -->
     <div class="col-item-auto">
         <figure class="container-flex flexflow-c-ol nowrap-align-center all-color-ticstark-white">
             <div class="col-item-auto">
-                <h1 class="f-segoe-sb a">CREATIVIDAD</h1>
+                <h1 class="cool-font a">CREATIVIDAD</h1>
             </div>
             <div>
                 <h2 class="f-segoe-sl-webkit b">NUESTRA PRIORIDAD</h1>
@@ -18,14 +18,7 @@
                 <h2 class="f-segoe-r c">MARCA - DISEÑO - DESARROLLO</h2>
             </div>
             <div class="boton">
-                <a class="button f-segoe-rn" href="<?php
-    require_once(dirname(__FILE__) . '/page.php');
-    header("HTTP/1.1 200 OK");
-    header("Status: 200 All rosy");
-
-    // Your Wordpress Functions here...
-    echo site_url();
-?>">LEER MÁS</a>
+                <a class="button f-segoe-rn" href="<?php echo get_site_url(); ?>/index.php/que-hacemos/">LEER MÁS</a>
             </div>
         </figure>
     </div>
@@ -122,7 +115,7 @@
     <div class="container-grid fitems-center page-home">
         <?php query_posts("paged=$paged");?>
         <?php if (have_posts()) : while(have_posts()) : the_post(); ?>
-        <?php include(TEMPLATEPATH. '/cards.php');?>
+        <?php include(TEMPLATEPATH. '/componentes/cards.php');?>
         <?php endwhile; else: ?>
         <h4 class="t-center">No se encontraron noticias recientes.</h4>
         <?php endif; ?>
@@ -158,6 +151,7 @@
 
     </div>
 </section>
+
 
 <!-- FORMULARIO DE CONTACTO (PERMITE CAMBIOS EN ELEMENTOS CON FLEX)-->
 <section class="container-fluido" id="FAQ">
@@ -201,6 +195,8 @@
 
         <div class="col-item-flex-8 background-color-ts-7 sr4">
             <h2 class="c-3 f-segoe-rn color-ticstark-6">ENVÍANOS TU MENSAJE</h2>
+          
+            <?php FORM ?>
             <form class="container-flex flexflow-c-ol margin-3">
                 <!-- NOMBRES / EMAIL -->
                 <div class="col-item-auto">
@@ -218,5 +214,4 @@
         </div>
     </div>
 </section>
-
 <?php get_footer();?>

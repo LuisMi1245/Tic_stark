@@ -4,9 +4,7 @@ Theme URI: http://www.ticstark.com
 Author: Ticstark: Luis Miguel Patiño
 Version: 1.0
 */
-
 /*Estilos generales alineaciones para el articulo*/
-
 .center {
     text-align: center;
 }
@@ -50,18 +48,12 @@ hr.clear {
     height: 0px;
 }
 
-.parrafo-single-page p {
-    margin-bottom: 15px;
-}
-
 /* ticstark-reset.css */
-
 /* RESETEANDO CONFIGURACION PREDETERMINADA DE LOS NAVEGADORES */
-
 html {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    font-family: 'segoe-regular-new';
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 16px;
     text-align: left;
     color: black;
@@ -125,7 +117,6 @@ h9 {
 }
 
 /* REGLAS BARRA DE NAVEGACION */
-
 nav>ul {
     display: inline-block;
 }
@@ -149,8 +140,7 @@ header {
     z-index: 20;
 }
 
-/* ESTILOS PERSONALIZADOS */
-
+/* ESTILOS */
 .portada {
     -webkit-box-flex: 1;
     -ms-flex-positive: 1;
@@ -172,20 +162,13 @@ header {
 }
 
 .a-blog,
-.a-1-blog,
-.a-blog-page {
+.a-1-blog {
     /* Style for "TICSTARK" */
     color: #ffffff;
     font-size: 7.29vw;
     letter-spacing: .275vw;
     line-height: 8.74vw;
     text-transform: uppercase;
-}
-
-.a-blog-page {
-    text-align: center;
-    font-size: 4vw;
-    letter-spacing: .1vw;
 }
 
 .b {
@@ -201,17 +184,11 @@ header {
     /* Style for "BLOG*/
     color: #ffffff;
     font-size: 2.5vw;
-    font-weight: 200;
+    font-weight: 300;
     letter-spacing: 1vw;
     text-transform: uppercase;
 }
-.b-blog-page {
-    color: #000000;
-    font-size: 2vw;
-    text-align: center;
-    margin: 2%;
 
-}
 .c {
     /* Style for "MARCA / DI" */
     color: #e1e1e1;
@@ -270,7 +247,7 @@ ul.f>* {
     margin-bottom: 8%;
     color: #47454e;
     font-size: 2.18vw;
-    font-weight: 100;
+    font-weight: 400;
     text-transform: uppercase;
 }
 
@@ -294,11 +271,13 @@ strong.b-2 {
     font-size: 1.1vw;
     color: #595d61;
     font-weight: bold;
+    -webkit-transition: all .4s;
     transition: all .4s;
 }
 
 .text-container.bottom>a.c-2:hover {
     color: #1a1b1d;
+    -webkit-transition: all .4s;
     transition: all .4s;
 }
 
@@ -399,7 +378,6 @@ ul.all-color-n>li>* {
 
 /* MICRO-FRAMEWORK DISEÑO ATÓMICO
 BY LUIS PATIÑO BUENDÍA */
-
 /*  CONSEJOS:
 1) FLOAT LEFT FUNCIONA PERO NO RESPETA LA PROPIEDAD HEIGHT.
 2) FLOAT SE DEFINE PARA FLOTAR IMÁGENES Y NO PARA MAQUETAR .
@@ -421,9 +399,7 @@ BY LUIS PATIÑO BUENDÍA */
     2.(descripcion_corta)-(sub_tipo)
     3.(descripcion_corta)   
     */
-
 /* ESTILOS ESTÁTICOS */
-
 .fixed-position {
     position: fixed;
     z-index: 5;
@@ -451,7 +427,6 @@ picture {
 }
 
 /* REGLAS PARA LISTAS */
-
 ol.lista-decimal-zero>li {
     list-style-type: decimal-leading-zero;
     list-style-position: inside;
@@ -482,7 +457,6 @@ ul.lista-circle>li {
 }
 
 /* REGLAS PARA HEADER */
-
 .header-fix {
     position: fixed;
 }
@@ -576,7 +550,6 @@ nav.header-nav li>a:visited {
 }
 
 /* TIPOGRAFÍA */
-
 .f-segoe-r {
     font-family: 'segoe-regular';
 }
@@ -634,7 +607,6 @@ nav.header-nav li>a:visited {
 }
 
 /* ALINEACION DE TEXTO */
-
 .t-all-center>* {
     text-align: center;
 }
@@ -743,7 +715,6 @@ nav.header-nav li>a:visited {
 }
 
 /* FONDOS */
-
 .background-color-ts-1 {
     background-color: #f3f3f3;
 }
@@ -823,7 +794,6 @@ nav.header-nav li>a:visited {
 }
 
 /* BOTONERA */
-
 a.button,
 button.button,
 input.button {
@@ -876,21 +846,27 @@ input.button:hover {
     0% {
         top: 10vw
     }
+
     50% {
         top: 10.3vw
     }
+
     75% {
         top: 10vw
     }
+
     80% {
         top: 11vw;
     }
+
     90% {
         top: 10vw;
     }
+
     95% {
         top: 10.2vw;
     }
+
     100% {
         top: 10vw;
     }
@@ -900,28 +876,33 @@ input.button:hover {
     0% {
         top: 10vw
     }
+
     50% {
         top: 10.3vw
     }
+
     75% {
         top: 10vw
     }
+
     80% {
         top: 11vw;
     }
+
     90% {
         top: 10vw;
     }
+
     95% {
         top: 10.2vw;
     }
+
     100% {
         top: 10vw;
     }
 }
 
 /* CAJAS DE ENTRADA */
-
 input[type="text"],
 input[type="email"],
 textarea {
@@ -942,7 +923,6 @@ input[type="email"] {
 }
 
 /* WIDGETS INPUTS */
-
 label.screen-reader-text {
     display: none;
 }
@@ -960,10 +940,12 @@ section.widget>form>div>input[type="text"] {
     font-size: 1.3vw;
     font-weight: 100;
     overflow: auto;
+    -webkit-transition: all .3s;
     transition: all .3s;
 }
 
 section.widget>form>div>input[type="text"]:focus {
+    -webkit-transition: all .4s;
     transition: all .4s;
     border: .14vw solid #838586af;
 }
@@ -975,14 +957,16 @@ section.widget>form>div {
 }
 
 section.widget {
-    padding: 0% 10% 0% 2%;
+    padding: 10%;
+    margin-bottom: 5%;
+    background-color: #ffffff;
 }
 
 section.widget>.widget-title {
     font-size: 1.5vw;
     color: #000000;
     text-transform: uppercase;
-    font-family: 'segoe-semibold';
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     margin: 0.15vw 0vw 0.7vw 0vw;
 }
 
@@ -997,17 +981,18 @@ section.widget>ul>li>a {
     color: #7a7a7a;
     font-size: .9vw;
     font-weight: bold;
-    font-family: 'segoe-regular-new';
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    -webkit-transition: all .3s;
     transition: all .3s;
 }
 
 section.widget>ul>li>a:hover {
     color: #1b1c1d;
+    -webkit-transition: all .3s;
     transition: all .3s;
 }
 
 /* EFECTO CAJA */
-
 .efecto-caja {
     position: relative;
     width: 100%;
@@ -1037,9 +1022,7 @@ section.widget>ul>li>a:hover {
 }
 
 /* TARJETAS DEL BLOG */
-
 /* CARDS DEL HOME */
-
 .blog {
     background: #f1f1f1;
 }
@@ -1051,7 +1034,6 @@ div.container-grid.page-home {
 }
 
 /* CARDS DEL HOME */
-
 .card-container {
     -webkit-box-shadow: 0vw 0.59vw 1.32vw rgba(0, 0, 0, 0.3);
     box-shadow: 0vw 0.59vw 1.32vw rgba(0, 0, 0, 0.3);
@@ -1063,7 +1045,7 @@ div.container-grid.page-home {
 
 .card-container>.card-cabeza img {
     max-width: 100%;
-    /* max-height: 100%; */
+    max-height: 100%;
     width: 100%;
     z-index: 0;
 }
@@ -1132,7 +1114,6 @@ span.text_categoria>ul>li {
 }
 
 /* CONTENT */
-
 .cont-titular h1 {
     font-size: 1.1vw;
     color: #515151;
@@ -1177,20 +1158,16 @@ span.text_categoria>ul>li {
 }
 
 /*Modificando cajas de tarjetas*/
-
 section.container-grid.page-blog {
     grid-template-columns: 30% 70%;
     grid-gap: 2vw;
 }
 
 .container-grid.hijo-1 {
+    background-color: white;
     grid-template-columns: 32.5% 32.5% 32.5%;
+    grid-template-rows: 80%;
     grid-gap: 1vw;
-}
-
-.container-grid.hijo-2 {
-    padding: 6%;
-    grid-template-rows: 10% 33% 33%;
 }
 
 .card-container.card-level-1 {
@@ -1216,25 +1193,81 @@ section.container-grid.page-blog {
     grid-template-rows: 80% 20%;
 }
 
+/* TARJETAS DEL BLOG FIN*/
 /* SINGLE PAGES */
+.cool-font {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
 
-.portada-single-page {
-    grid-template-rows: 20vw 20vw;
+.parrafo-single-page p {
+    font-size: 1.4vw;
+    margin-bottom: 1.25vw;
+    line-height: 2.2vw;
+    color: #333333;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+}
+
+.parrafo-single-page a {
+    text-decoration: underline;
+    color: #CF4DA5;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.date-single-page {
+    color: #888888;
+    padding: 2% 0%;
+}
+
+.parrafo-single-page h3 {
+    color: #333333;
+    font-size: 2.35vw;
+    text-align: center;
+    line-height: 2.95vw;
+    font-weight: 700;
+    margin: 3.2vw 0vw 1.3vw 0vw;
+    text-rendering: optimizeLegibility;
+}
+
+.a-blog-page {
+    text-align: center;
+    font-size: 5vw;
+    font-weight: bolder;
+    letter-spacing: .1vw;
+    color: #ffffff;
+    letter-spacing: .275vw;
+    line-height: 8.74vw;
+    text-transform: uppercase;
+}
+
+.b-blog-page {
+    color: #333333;
+    font-size: 2vw;
+    text-align: center;
+    margin: 2%;
+    line-height: 3vw;
+}
+
+.container-grid.hijo-1-single-page {
+    padding: 6%;
+    background-color: #ffffff;
+}
+
+.container-grid.hijo-2-single-page {
+    grid-template-rows: 50% 50%;
 }
 
 .titular-single-page {
     padding: 36vh 20vh 36vh 20vh;
+    z-index: 1;
+    color: white;
 }
 
 section.single-page {
     padding: 5% 3%;
-    background-color: white;
+    background-color: #f6f6f6;
     grid-template-columns: 25% 65%;
     grid-gap: 3vw;
-}
-
-article.hijo-1-single-page {
-    /* background-color: #f2f2f2; */
 }
 
 .img-single-page {
@@ -1247,16 +1280,25 @@ article.hijo-1-single-page {
     height: auto;
 }
 
-.parrafo-single-page {}
+section.faq-map {
+    padding: 5%;
+}
 
-/* TARJETAS DEL BLOG FIN*/
+#mapid {
+    width: 100%;
+    height: 20vw;
+    z-index: 0;
+}
 
 /* ticstark-grid.css */
-
 main.main_content {
     display: block;
     width: auto;
     max-width: 1366px;
+}
+
+.content-menu-page {
+    padding: 5%;
 }
 
 /* 
@@ -1270,12 +1312,9 @@ A la hora de maquetar, la ecuación para elegir Col-n es:
 Todos los N-item-container deben tener la clase de Col-N resultante.
 La suma de N-item-container debe ser igual a 12, para mantener las proporciones.
 */
-
 /* AL USAR EL SISTEMA DE GRILLAS, SE PROPORCIONA EL ESPACIO, LA CUAL
 CANCELA EL USO DE ALINEACIONES FLEXBOX */
-
 /* Grillas con flex */
-
 .container-flex {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1402,22 +1441,19 @@ CANCELA EL USO DE ALINEACIONES FLEXBOX */
 }
 
 .col-item-custom-2 {
+    -ms-flex-preferred-size: 22%;
     flex-basis: 22%;
     max-width: 22%;
 }
 
 /* Grillas con CSS Grid Layout */
-
 .container-grid {
     display: grid;
 }
 
 /* A los hijos del container grid se les puede agregar display grid para subdividirlos */
-
 /* ticstark-layout.css */
-
 /* TECNICAS DE MAQUETACION  */
-
 /* 
 b. CAJA (MODELO-CAJA):
 {display, float, margin, padding, width, height}
@@ -1426,11 +1462,9 @@ b. CAJA (MODELO-CAJA):
  1.(prefijo_letra)-(descripcion_corta)-(sub_tipo)
  2.(descripcion_corta)-(sub_tipo)
  3.(descripcion_corta) */
-
 /*  TÉCNICA DE MAQUETACIÓN #1 (FLOAT)
  SALVO QUE EL NAVEGADOR SEA MUY ANTIGUO, USAR FLOAT 
 Requiere una clase padre clear*/
-
 .float-l {
     float: left;
 }
@@ -1457,7 +1491,6 @@ Requiere una clase padre clear*/
 
 /* TÉCNICA DE MAQUETACIÓN #2 (DISPLAY:INLINE-BLOCK)
 Requiere una clase padre font-0 + alineación vertical*/
-
 .font-0 {
     font-size: 0vw;
 }
@@ -1479,7 +1512,6 @@ Requiere una clase padre font-0 + alineación vertical*/
 }
 
 /* ALINEA ITEM-CONTAINER QUE SE ENCUENTRAN SEGUIDOS DE UNO MÁS ALTO.*/
-
 .v-align-baseline {
     vertical-align: baseline;
 }
@@ -1497,7 +1529,6 @@ Requiere una clase padre font-0 + alineación vertical*/
 }
 
 /* TÉCNICA DE MAQUETACIÓN #3 (DISPLAY:TABLE)*/
-
 .d-table {
     display: table;
 }
@@ -1512,7 +1543,6 @@ Requiere una clase padre font-0 + alineación vertical*/
 
 /* TÉCNICA DE MAQUETACIÓN #4 (DISPLAY:FLEX)
 Requiere un padre container-flex e hijos d-flex-item(opcional) y padres con flexflow(opcional) */
-
 .d-flex-line {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
@@ -1522,11 +1552,8 @@ Requiere un padre container-flex e hijos d-flex-item(opcional) y padres con flex
 /* UNA LINEA (NOWRAP) VARIAS LINEAS (WRAP O W-REVERSE), 
 es decir, si se desborda del contenedor padre,este pasa a otra linea nueva si es wrap,
 si es nowrap, se desborda, pero solo si flex-direction es column. */
-
 /* SHORTHAND (flexflow-{direccion:columna,fila,reversa}-{polilinea-onelinea}) */
-
 /* usada */
-
 .flexflow-r-ol {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -1535,7 +1562,6 @@ si es nowrap, se desborda, pero solo si flex-direction es column. */
 }
 
 /* usada */
-
 .flexflow-r-pl {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -1572,7 +1598,6 @@ si es nowrap, se desborda, pero solo si flex-direction es column. */
 }
 
 /* usada */
-
 .flexflow-c-ol {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1581,7 +1606,6 @@ si es nowrap, se desborda, pero solo si flex-direction es column. */
 }
 
 /* usada */
-
 .flexflow-c-pl {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1618,11 +1642,8 @@ si es nowrap, se desborda, pero solo si flex-direction es column. */
 }
 
 /* COMO SE ACOMODAN LOS ELEMENTOS (NO LAS CAJAS) DEL EJE PRINCIPAL (HORIZONTAL, SEGUN LA ESCRITURA OCCIDENTAL) */
-
 /* SIMILAR A FLOAT */
-
 /* FUNCIONAN SI NO SE USA EL SISTEMA DE GRIDS (COL-N) */
-
 .fitems-start {
     -webkit-box-pack: start;
     -ms-flex-pack: start;
@@ -1636,7 +1657,6 @@ si es nowrap, se desborda, pero solo si flex-direction es column. */
 }
 
 /* MUY RECOMENDABLE USAR */
-
 .fitems-center {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
@@ -1656,9 +1676,7 @@ si es nowrap, se desborda, pero solo si flex-direction es column. */
 
 /* PARA EL EJE TRANSVERSAL, 
 USAMOS ALIGN ITEMS (SI ES NOWRAP) O ALIGN CONTENT (SI ES WRAP/REVERSE) */
-
 /* MUY RECOMENDABLE USAR */
-
 .nowrap-align-start {
     -webkit-box-align: start;
     -ms-flex-align: start;
@@ -1720,7 +1738,6 @@ USAMOS ALIGN ITEMS (SI ES NOWRAP) O ALIGN CONTENT (SI ES WRAP/REVERSE) */
 }
 
 /* CRECIMIENTO DE LOS CONTAINERS FLEX */
-
 .flex-grow-1 {
     -webkit-box-flex: 1;
     -ms-flex-positive: 1;
